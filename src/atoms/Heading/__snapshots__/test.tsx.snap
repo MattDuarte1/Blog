@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Heading> Should match snapshot component 1`] = `
+.c0 {
+  font-family: 'Plus Jakarta Sans','sans-serif';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: capitalize;
+  font-size: 10.06rem;
+  text-transform: none;
+  color: #2B2C34;
+}
+
+<h1
+  class="c0"
+>
+  menu
+</h1>
+`;
