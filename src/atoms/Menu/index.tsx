@@ -1,4 +1,4 @@
-import React, { ComponentProps, FC, forwardRef, HTMLAttributes } from 'react';
+import React, { forwardRef } from 'react';
 import styled, { css } from 'styled-components';
 import NextLink from 'next/link';
 
