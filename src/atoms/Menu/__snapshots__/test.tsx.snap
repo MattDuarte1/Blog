@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu> Should match snapshot of menu 1`] = `
+.c0 {
+  font-family: 'Plus Jakarta Sans','sans-serif';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.617rem;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #2B2C34;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+  max-width: 100px;
+  height: 25px;
+}
+
+<a
+  class="c0"
+  href="#"
+  target="_self"
+>
+  procurar
+</a>
+`;
