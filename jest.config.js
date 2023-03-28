@@ -2,6 +2,7 @@ module.exports = {
   testTimeout: 20000,
   moduleNameMapper: {
     '\\.(css|less|scss)$': 'identity-obj-proxy',
+    '^@/(.*)$': '<rootDir>/src/$1',
   },
   coverageDirectory: 'coverage',
   collectCoverage: true,
