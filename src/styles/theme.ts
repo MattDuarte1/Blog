@@ -1,0 +1,50 @@
+export const theme = {
+  name: 'default',
+  colors: {
+    white: '#FFFFFE',
+    lightGrey1: '#EFF0F3',
+    lightGrey2: '#E4E5E9',
+    grey: '#C0C0C0',
+    darkGrey: '#9A9494',
+    black: '#2B2C34',
+    blue: '#6246EA',
+    red: '#BA1200',
+    green: '#1efc1e',
+    yellow: '#F1C40F',
+  },
+  font: {
+    family: {
+      default: "'Plus Jakarta Sans', 'sans-serif'",
+    },
+    sizes: {
+      xxsmall: '1rem',
+      xsmall: '1.617rem',
+      small: '2.156rem',
+      medium: '2.4rem',
+      large: '3.576rem',
+      xlarge: '4.8rem',
+      xxlarge: '6.4rem',
+      huge: '10.06rem',
+      xhuge: '28.8rem',
+    },
+  },
+  media: {
+    lteLarge: '(max-width: 999px)',
+    lteMedium: '(max-width: 700px)',
+    lteSmall: '(max-width: 400px)',
+  },
+  spacings: {
+    xsmall: '1.617rem',
+    small: '2.156rem',
+    medium: '2.4rem',
+    large: '3.576rem',
+    xlarge: '4.8rem',
+    xxlarge: '6.4rem',
+    huge: '10.06rem',
+    xhuge: '28.8rem',
+  },
+  sizes: {
+    max: '96rem',
+    content: '80rem',
+  },
+};
