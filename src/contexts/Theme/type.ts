@@ -8,9 +8,9 @@ export type ThemeProviderProps = {
 
 export type ThemeContextValues = {
   state: {
-    drawerIsOpen: boolean;
-    theme: DefaultTheme;
-    categorySelected: string;
+    drawerIsOpen?: boolean;
+    theme?: DefaultTheme;
+    categorySelected?: string;
   };
   changeTheme?: (mode: string) => void;
   activeDrawer?: () => void;

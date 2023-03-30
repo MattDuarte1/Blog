@@ -3,6 +3,7 @@ import { Actions } from './actions';
 import { IAction } from './type';
 
 export const blogContextReducer = (
+  /* istanbul ignore next */
   state = INITIAL_STATE,
   action: IAction,
 ): InitialStateType => {
