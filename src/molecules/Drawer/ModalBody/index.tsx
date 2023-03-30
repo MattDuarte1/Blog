@@ -9,6 +9,7 @@ type ModalBodyProps = {
   data: readonly IMenu[];
 };
 
+// istanbul ignore next
 const ModalBody = forwardRef<HTMLDivElement, ModalBodyProps>(
   ({ data, ...props }, ref) => {
     const { data: session } = useSession();

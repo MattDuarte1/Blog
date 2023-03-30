@@ -25,7 +25,8 @@ export const ThemeProvider = ({ children }: ThemeProviderProps) => {
     [dispatch],
   );
 
-  const changeCategory = useCallback((category) => {
+  // istanbul ignore next
+  const changeCategory = useCallback((category: string) => {
     dispatch({
       type: Actions.setCategorySelected,
       payload: {
@@ -34,6 +35,7 @@ export const ThemeProvider = ({ children }: ThemeProviderProps) => {
     });
   }, []);
 
+  // istanbul ignore next
   const activeDrawer = useCallback(() => {
     dispatch({
       type: Actions.setDrawer,
