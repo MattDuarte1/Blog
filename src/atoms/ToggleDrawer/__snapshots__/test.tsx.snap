@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ToggleDrawer> Should match snapshot toggleDrawer actived 1`] = `
+.c0 {
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+  border-radius: 10px;
+  border: none;
+  overflow: hidden;
+  display: none;
+  cursor: pointer;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  height: 70px;
+  width: 70px;
+}
+
+.c0 p {
+  position: absolute;
+  width: 40px;
+  height: 4px;
+  background-color: #6246EA;
+  border-radius: 4px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.c0 p:nth-child(1) {
+  -webkit-transform: translateY(0px) rotate(45deg);
+  -ms-transform: translateY(0px) rotate(45deg);
+  transform: translateY(0px) rotate(45deg);
+  width: 40px;
+  left: 15px;
+}
+
+.c0 p:nth-child(2) {
+  -webkit-transform: translateY(0px) rotate(315deg);
+  -ms-transform: translateY(0px) rotate(315deg);
+  transform: translateY(0px) rotate(315deg);
+  width: 40px;
+  left: 15px;
+}
+
+.c0 p:nth-child(3) {
+  -webkit-transform: translateX(60px);
+  -ms-transform: translateX(60px);
+  transform: translateX(60px);
+}
+
+@media (max-width:999px) {
+  .c0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+<button
+  aria-label="menu-toggle"
+  class="c0"
+  data-active="true"
+>
+  <p />
+  <p />
+  <p />
+</button>
+`;
+
+exports[`<ToggleDrawer> Should match snapshot toggleDrawer not active 1`] = `
+.c0 {
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+  border-radius: 10px;
+  border: none;
+  overflow: hidden;
+  display: none;
+  cursor: pointer;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  height: 70px;
+  width: 70px;
+}
+
+.c0 p {
+  position: absolute;
+  width: 40px;
+  height: 4px;
+  background-color: #6246EA;
+  border-radius: 4px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.c0 p:nth-child(1) {
+  -webkit-transform: translateY(-15px);
+  -ms-transform: translateY(-15px);
+  transform: translateY(-15px);
+  width: 25px;
+  left: 15px;
+}
+
+.c0 p:nth-child(2) {
+  -webkit-transform: translateY(15px);
+  -ms-transform: translateY(15px);
+  transform: translateY(15px);
+  width: 15px;
+  left: 15px;
+}
+
+@media (max-width:999px) {
+  .c0 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+<button
+  aria-label="menu-toggle"
+  class="c0"
+  data-active="false"
+>
+  <p />
+  <p />
+  <p />
+</button>
+`;
