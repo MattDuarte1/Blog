@@ -1,0 +1,224 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PostCard> Should match snapshot component 1`] = `
+.c1 {
+  font-family: 'Plus Jakarta Sans','sans-serif';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: capitalize;
+  font-size: 1.617rem;
+  text-transform: none;
+  color: #2B2C34;
+}
+
+.c7 {
+  font-family: 'Plus Jakarta Sans','sans-serif';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: capitalize;
+  font-size: 2.156rem;
+  text-transform: none;
+  color: #2B2C34;
+}
+
+.c0 {
+  width: 300px;
+  height: 425px;
+  padding: 1.4rem;
+  background: #FFFFFE;
+  position: relative;
+  box-shadow: 4px 6px 13px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  text-align: start;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.c0 > h1 {
+  margin-left: 1rem;
+}
+
+.c0 img {
+  margin-bottom: 2rem;
+}
+
+.c0:hover {
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
+  -webkit-filter: drop-shadow(0 1.5px 2px rgba(0,0,0,0.2));
+  filter: drop-shadow(0 1.5px 2px rgba(0,0,0,0.2));
+}
+
+.c2 {
+  position: absolute;
+  padding: 0 1.4rem;
+  width: 100%;
+  height: 57px;
+  left: 0px;
+  top: 348px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #2B2C34;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0px;
+  gap: 15px;
+  color: #2B2C34;
+}
+
+.c4 {
+  overflow: hidden;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 2px;
+  gap: 4.2px;
+  width: 184px;
+  height: 46.2px;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+}
+
+.c6 > svg {
+  color: #2B2C34;
+  font-size: 2.4rem;
+}
+
+.c6 > h1 {
+  display: inline;
+}
+
+@media (max-width:400px) {
+  .c3 > img {
+    width: 47px;
+    height: 47px;
+  }
+}
+
+<article
+  class="c0"
+  id="95380751"
+>
+  <img
+    alt="aa"
+    data-nimg="1"
+    decoding="async"
+    height="198"
+    loading="lazy"
+    src="https://www.datocms-assets.com/90479/1674243496-vuejs.svg"
+    srcset="https://www.datocms-assets.com/90479/1674243496-vuejs.svg 1x, https://www.datocms-assets.com/90479/1674243496-vuejs.svg 2x"
+    style="color: transparent;"
+    width="260"
+  />
+  <h1
+    class="c1"
+    color="black"
+  >
+    Vue JS: O que é, como funciona ?
+  </h1>
+  <div
+    class="c2"
+  >
+    <div
+      class="c3"
+    >
+      <div
+        class="c4"
+      >
+        <img
+          alt="author image"
+          data-nimg="1"
+          decoding="async"
+          height="50"
+          src="/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=128&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=64&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=128&q=75 2x"
+          style="color: transparent;"
+          width="50"
+        />
+      </div>
+      <div
+        class="c5"
+      >
+        <h4>
+          Mateus Duarte
+        </h4>
+        <p>
+          02/03/2023
+        </p>
+      </div>
+    </div>
+    <div
+      class="c6"
+    >
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        stroke-width="0"
+        viewBox="0 0 1024 1024"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z"
+        />
+      </svg>
+      <h1
+        class="c7"
+      >
+        0
+      </h1>
+    </div>
+  </div>
+</article>
+`;
