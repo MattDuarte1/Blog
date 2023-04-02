@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CategoryCard /> Should match snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 3.576rem;
+  width: 220px;
+  height: 280px;
+  color: #2B2C34;
+  background-color: #FFFFFE;
+  -webkit-filter: drop-shadow(4px 6px 13px rgba(0,0,0,0.1));
+  filter: drop-shadow(4px 6px 13px rgba(0,0,0,0.1));
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.c0 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  text-align: center;
+  padding: 0px;
+  gap: 30px;
+}
+
+.c0:hover {
+  background-color: #6246EA;
+  color: white;
+}
+
+@media (max-width:400px) {
+  .c0 {
+    width: 80%;
+  }
+}
+
+<article
+  aria-details="javascript"
+  class="c0"
+  id="1"
+>
+  <div>
+    <img
+      alt="javascript"
+      src="www.google.com"
+    />
+    <h1>
+      javascript
+    </h1>
+  </div>
+</article>
+`;
