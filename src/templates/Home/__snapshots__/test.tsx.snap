@@ -1,0 +1,1390 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeTemplate> Should match snapshot HomeTemplate component 1`] = `
+.c2 {
+  font-family: 'Plus Jakarta Sans','sans-serif';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: capitalize;
+  font-size: 6.4rem;
+  text-transform: none;
+  color: #2B2C34;
+}
+
+.c7 {
+  font-family: 'Plus Jakarta Sans','sans-serif';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: capitalize;
+  font-size: 3.576rem;
+  text-transform: none;
+  color: #2B2C34;
+}
+
+.c15 {
+  font-family: 'Plus Jakarta Sans','sans-serif';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: capitalize;
+  font-size: 1.617rem;
+  text-transform: none;
+  color: #2B2C34;
+}
+
+.c21 {
+  font-family: 'Plus Jakarta Sans','sans-serif';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: capitalize;
+  font-size: 2.156rem;
+  text-transform: none;
+  color: #2B2C34;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 3.576rem;
+  width: 220px;
+  height: 280px;
+  color: #2B2C34;
+  background-color: #FFFFFE;
+  -webkit-filter: drop-shadow(4px 6px 13px rgba(0,0,0,0.1));
+  filter: drop-shadow(4px 6px 13px rgba(0,0,0,0.1));
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.c9 > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  text-align: center;
+  padding: 0px;
+  gap: 30px;
+}
+
+.c9:hover {
+  background-color: #6246EA;
+  color: white;
+}
+
+.c5 {
+  display: block;
+  padding: 6.4rem;
+  background-color: #FFFFFE;
+  width: 100%;
+  height: 100%;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-width: 100%;
+  height: 100%;
+  gap: 37px;
+}
+
+.c0 {
+  width: 100%;
+  padding: 28.8rem 2.4rem;
+  min-height: 700px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FFFFFE;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.c1 {
+  max-height: 400px;
+  max-width: 664px;
+  padding: 25px display:flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.c1 span {
+  color: transparent;
+  width: 5px;
+  height: 100%;
+  width: 2px;
+  -webkit-animation: gqltWr 1s infinite;
+  animation: gqltWr 1s infinite;
+}
+
+.c4 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: block;
+}
+
+.c3 {
+  padding-left: 15px;
+  margin-top: 25px;
+  font-family: 'Plus Jakarta Sans','sans-serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: #9A9494;
+  line-height: 25px;
+  margin-left: 20px;
+  position: relative;
+}
+
+.c3::before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  background-color: #2B2C34;
+  width: 5px;
+  height: 100%;
+}
+
+.c26 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 20px 23px 19px;
+  gap: 10px;
+  border: none;
+  cursor: pointer;
+  min-width: 145px;
+  height: 67px;
+  font-weight: 700;
+  color: #ffff;
+  background: #6246EA;
+  border-radius: 8px;
+  -webkit-transition: filter 0.4s ease;
+  transition: filter 0.4s ease;
+}
+
+.c26:hover {
+  -webkit-filter: brightness(1.1);
+  filter: brightness(1.1);
+}
+
+.c22 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 58px;
+  gap: 10px;
+  background-color: #E4E5E9;
+  width: 100%;
+}
+
+.c23 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+  max-width: 696px;
+}
+
+.c24 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+  width: 100%;
+}
+
+.c25 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+  padding: 21px 21px 21px 25px;
+  width: 300px;
+  height: 67px;
+  background: #fffffe;
+  border-radius: 8px;
+  border: none;
+}
+
+.c25:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.c14 {
+  width: 300px;
+  height: 425px;
+  padding: 1.4rem;
+  background: #FFFFFE;
+  position: relative;
+  box-shadow: 4px 6px 13px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  text-align: start;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.c14 > h1 {
+  margin-left: 1rem;
+}
+
+.c14 img {
+  margin-bottom: 2rem;
+}
+
+.c14:hover {
+  -webkit-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  transform: scale(1.02);
+  -webkit-filter: drop-shadow(0 1.5px 2px rgba(0,0,0,0.2));
+  filter: drop-shadow(0 1.5px 2px rgba(0,0,0,0.2));
+}
+
+.c16 {
+  position: absolute;
+  padding: 0 1.4rem;
+  width: 100%;
+  height: 57px;
+  left: 0px;
+  top: 348px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #2B2C34;
+}
+
+.c17 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 0px;
+  gap: 15px;
+  color: #2B2C34;
+}
+
+.c18 {
+  overflow: hidden;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.c19 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  padding: 2px;
+  gap: 4.2px;
+  width: 184px;
+  height: 46.2px;
+}
+
+.c20 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+}
+
+.c20 > svg {
+  color: #2B2C34;
+  font-size: 2.4rem;
+}
+
+.c20 > h1 {
+  display: inline;
+}
+
+.c12 {
+  padding: 4.4rem;
+  background-color: #FFFFFE;
+}
+
+.c13 {
+  margin-top: 1.4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(26rem,2fr));
+  gap: 3.576rem;
+}
+
+.c10 {
+  width: 100%;
+  color: #FFFFFE;
+  background-color: #2B2C34;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.c10 > p {
+  font-size: 1.617rem;
+}
+
+.c11 {
+  height: 0.75rem;
+  width: 0.75rem;
+  margin-right: 1rem;
+  background-color: #BA1200;
+  border-radius: 99999px;
+  -webkit-animation: pulse 1s infinite;
+  animation: pulse 1s infinite;
+}
+
+@media (max-width:700px) {
+  .c2 {
+    font-size: 4.8rem;
+  }
+}
+
+@media (max-width:400px) {
+  .c2 {
+    font-size: 3.576rem;
+  }
+}
+
+@media (max-width:400px) {
+  .c7 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width:400px) {
+  .c9 {
+    width: 80%;
+  }
+}
+
+@media (max-width:700px) {
+  .c5 {
+    padding: 2.4rem;
+  }
+}
+
+@media (max-width:400px) {
+  .c8 div {
+    width: 100%;
+  }
+}
+
+@media (max-width:999px) {
+  .c0 {
+    padding: 10.06rem 2.4rem;
+  }
+}
+
+@media (max-width:700px) {
+  .c4 img {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media (max-width:400px) {
+  .c3 {
+    margin-top: 20px;
+    font-size: 1.617rem;
+    line-height: normal;
+  }
+}
+
+@media (max-width:700px) {
+  .c3 {
+    margin-top: 40px;
+    font-size: 2.156rem;
+    line-height: normal;
+  }
+}
+
+@media (max-width:700px) {
+  .c23 > h1 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width:400px) {
+  .c17 > img {
+    width: 47px;
+    height: 47px;
+  }
+}
+
+@media (max-width:400px) {
+  .c12 {
+    padding: 3.5rem;
+  }
+}
+
+@media (max-width:1065px) {
+  .c13 {
+    grid-template-columns: repeat(auto-fill,minmax(27rem,1fr));
+  }
+}
+
+@media (max-width:705px) {
+  .c13 {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    grid-template-columns: 0fr;
+  }
+}
+
+@media (max-width:700px) {
+  .c10 > p {
+    font-size: 1.2rem;
+  }
+}
+
+<main>
+  <section
+    class="c0"
+    id="hero"
+  >
+    <aside
+      class="c1"
+    >
+      <h1
+        class="c2"
+      >
+        Bem Vindo Ao Blog FrontEnd Dev
+      </h1>
+      <p
+        class="c3"
+      >
+        Blog desenvolvido por Mateus Duarte para fins educacionais
+      </p>
+    </aside>
+    <aside
+      class="c1 c4"
+    >
+      <img
+        alt="Img Hero"
+        data-nimg="1"
+        decoding="async"
+        height="350"
+        src="https://www.datocms-assets.com/90479/1672435055-group.svg"
+        srcset="https://www.datocms-assets.com/90479/1672435055-group.svg 1x, https://www.datocms-assets.com/90479/1672435055-group.svg 2x"
+        style="color: transparent;"
+        width="350"
+      />
+    </aside>
+  </section>
+  <section
+    class="c5"
+    id="categoria"
+  >
+    <div
+      class="c6"
+    >
+      <h1
+        class="c7"
+        color="black"
+      >
+        Categorias - 
+      </h1>
+    </div>
+    <section
+      class="c8"
+    >
+      <article
+        aria-details="css"
+        class="c9"
+        id="92698872"
+      >
+        <div>
+          <img
+            alt="css logo"
+            src="https://www.datocms-assets.com/90479/1673678209-css.svg"
+          />
+          <h1>
+            css
+          </h1>
+        </div>
+      </article>
+      <article
+        aria-details="javascript"
+        class="c9"
+        id="92698866"
+      >
+        <div>
+          <img
+            alt="javascript logo"
+            src="https://www.datocms-assets.com/90479/1673678180-javascript.svg"
+          />
+          <h1>
+            javascript
+          </h1>
+        </div>
+      </article>
+      <article
+        aria-details="react"
+        class="c9"
+        id="92698860"
+      >
+        <div>
+          <img
+            alt="react logo"
+            src="https://www.datocms-assets.com/90479/1673678301-react.svg"
+          />
+          <h1>
+            react
+          </h1>
+        </div>
+      </article>
+      <article
+        aria-details="tailwind"
+        class="c9"
+        id="93834777"
+      >
+        <div>
+          <img
+            alt="tailwind logo"
+            src="https://www.datocms-assets.com/90479/1673678331-tailwind.svg"
+          />
+          <h1>
+            tailwind
+          </h1>
+        </div>
+      </article>
+      <article
+        aria-details="vuejs"
+        class="c9"
+        id="93834778"
+      >
+        <div>
+          <img
+            alt="vuejs logo"
+            src="https://www.datocms-assets.com/90479/1673678360-vuejs.svg"
+          />
+          <h1>
+            vuejs
+          </h1>
+        </div>
+      </article>
+    </section>
+  </section>
+  <div
+    class="c10"
+  >
+    <span
+      class="c11"
+    />
+     
+    <p>
+      messagem qualquer
+    </p>
+  </div>
+  <div
+    class="c12"
+    id="posts"
+  >
+    <h1
+      class="c7"
+    >
+      Todos os Posts
+    </h1>
+    <div
+      class="c13"
+    >
+      <article
+        class="c14"
+        id="92631209"
+      >
+        <img
+          alt="javascript svg"
+          data-nimg="1"
+          decoding="async"
+          height="198"
+          loading="lazy"
+          src="https://www.datocms-assets.com/90479/1674241447-javascript1.svg"
+          srcset="https://www.datocms-assets.com/90479/1674241447-javascript1.svg 1x, https://www.datocms-assets.com/90479/1674241447-javascript1.svg 2x"
+          style="color: transparent;"
+          width="260"
+        />
+        <h1
+          class="c15"
+          color="black"
+        >
+          VOCÊ CONHECE JAVASCRIPT ?
+        </h1>
+        <div
+          class="c16"
+        >
+          <div
+            class="c17"
+          >
+            <div
+              class="c18"
+            >
+              <img
+                alt="author image"
+                data-nimg="1"
+                decoding="async"
+                height="50"
+                src="/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=128&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=64&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=128&q=75 2x"
+                style="color: transparent;"
+                width="50"
+              />
+            </div>
+            <div
+              class="c19"
+            >
+              <h4>
+                Mateus Duarte
+              </h4>
+              <p>
+                03/02/2023
+              </p>
+            </div>
+          </div>
+          <div
+            class="c20"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z"
+              />
+            </svg>
+            <h1
+              class="c21"
+            >
+              0
+            </h1>
+          </div>
+        </div>
+      </article>
+      <article
+        class="c14"
+        id="95380751"
+      >
+        <img
+          alt="vuejs svg"
+          data-nimg="1"
+          decoding="async"
+          height="198"
+          loading="lazy"
+          src="https://www.datocms-assets.com/90479/1674243496-vuejs.svg"
+          srcset="https://www.datocms-assets.com/90479/1674243496-vuejs.svg 1x, https://www.datocms-assets.com/90479/1674243496-vuejs.svg 2x"
+          style="color: transparent;"
+          width="260"
+        />
+        <h1
+          class="c15"
+          color="black"
+        >
+          Vue JS: O que é, como funciona ?
+        </h1>
+        <div
+          class="c16"
+        >
+          <div
+            class="c17"
+          >
+            <div
+              class="c18"
+            >
+              <img
+                alt="author image"
+                data-nimg="1"
+                decoding="async"
+                height="50"
+                src="/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=128&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=64&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=128&q=75 2x"
+                style="color: transparent;"
+                width="50"
+              />
+            </div>
+            <div
+              class="c19"
+            >
+              <h4>
+                Mateus Duarte
+              </h4>
+              <p>
+                03/02/2023
+              </p>
+            </div>
+          </div>
+          <div
+            class="c20"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z"
+              />
+            </svg>
+            <h1
+              class="c21"
+            >
+              0
+            </h1>
+          </div>
+        </div>
+      </article>
+      <article
+        class="c14"
+        id="95380702"
+      >
+        <img
+          alt="react svg"
+          data-nimg="1"
+          decoding="async"
+          height="198"
+          loading="lazy"
+          src="https://www.datocms-assets.com/90479/1674241456-react.svg"
+          srcset="https://www.datocms-assets.com/90479/1674241456-react.svg 1x, https://www.datocms-assets.com/90479/1674241456-react.svg 2x"
+          style="color: transparent;"
+          width="260"
+        />
+        <h1
+          class="c15"
+          color="black"
+        >
+          React Hooks: o que é e como funciona ?
+        </h1>
+        <div
+          class="c16"
+        >
+          <div
+            class="c17"
+          >
+            <div
+              class="c18"
+            >
+              <img
+                alt="author image"
+                data-nimg="1"
+                decoding="async"
+                height="50"
+                src="/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=128&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=64&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=128&q=75 2x"
+                style="color: transparent;"
+                width="50"
+              />
+            </div>
+            <div
+              class="c19"
+            >
+              <h4>
+                Mateus Duarte
+              </h4>
+              <p>
+                03/02/2023
+              </p>
+            </div>
+          </div>
+          <div
+            class="c20"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z"
+              />
+            </svg>
+            <h1
+              class="c21"
+            >
+              0
+            </h1>
+          </div>
+        </div>
+      </article>
+      <article
+        class="c14"
+        id="95380585"
+      >
+        <img
+          alt="tailwind svg"
+          data-nimg="1"
+          decoding="async"
+          height="198"
+          loading="lazy"
+          src="https://www.datocms-assets.com/90479/1674241443-css2.svg"
+          srcset="https://www.datocms-assets.com/90479/1674241443-css2.svg 1x, https://www.datocms-assets.com/90479/1674241443-css2.svg 2x"
+          style="color: transparent;"
+          width="260"
+        />
+        <h1
+          class="c15"
+          color="black"
+        >
+          O que é Tailwind Css ?
+        </h1>
+        <div
+          class="c16"
+        >
+          <div
+            class="c17"
+          >
+            <div
+              class="c18"
+            >
+              <img
+                alt="author image"
+                data-nimg="1"
+                decoding="async"
+                height="50"
+                src="/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=128&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=64&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=128&q=75 2x"
+                style="color: transparent;"
+                width="50"
+              />
+            </div>
+            <div
+              class="c19"
+            >
+              <h4>
+                Mateus Duarte
+              </h4>
+              <p>
+                03/02/2023
+              </p>
+            </div>
+          </div>
+          <div
+            class="c20"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z"
+              />
+            </svg>
+            <h1
+              class="c21"
+            >
+              0
+            </h1>
+          </div>
+        </div>
+      </article>
+      <article
+        class="c14"
+        id="95380505"
+      >
+        <img
+          alt="javascript svg"
+          data-nimg="1"
+          decoding="async"
+          height="198"
+          loading="lazy"
+          src="https://www.datocms-assets.com/90479/1674241454-javascript4.svg"
+          srcset="https://www.datocms-assets.com/90479/1674241454-javascript4.svg 1x, https://www.datocms-assets.com/90479/1674241454-javascript4.svg 2x"
+          style="color: transparent;"
+          width="260"
+        />
+        <h1
+          class="c15"
+          color="black"
+        >
+          Como usar Array no Javascript
+        </h1>
+        <div
+          class="c16"
+        >
+          <div
+            class="c17"
+          >
+            <div
+              class="c18"
+            >
+              <img
+                alt="author image"
+                data-nimg="1"
+                decoding="async"
+                height="50"
+                src="/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=128&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=64&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=128&q=75 2x"
+                style="color: transparent;"
+                width="50"
+              />
+            </div>
+            <div
+              class="c19"
+            >
+              <h4>
+                Mateus Duarte
+              </h4>
+              <p>
+                03/02/2023
+              </p>
+            </div>
+          </div>
+          <div
+            class="c20"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z"
+              />
+            </svg>
+            <h1
+              class="c21"
+            >
+              0
+            </h1>
+          </div>
+        </div>
+      </article>
+      <article
+        class="c14"
+        id="92632737"
+      >
+        <img
+          alt="typescript svg"
+          data-nimg="1"
+          decoding="async"
+          height="198"
+          loading="lazy"
+          src="https://www.datocms-assets.com/90479/1674241450-javascript2.svg"
+          srcset="https://www.datocms-assets.com/90479/1674241450-javascript2.svg 1x, https://www.datocms-assets.com/90479/1674241450-javascript2.svg 2x"
+          style="color: transparent;"
+          width="260"
+        />
+        <h1
+          class="c15"
+          color="black"
+        >
+          Você conhece Typescript ?
+        </h1>
+        <div
+          class="c16"
+        >
+          <div
+            class="c17"
+          >
+            <div
+              class="c18"
+            >
+              <img
+                alt="author image"
+                data-nimg="1"
+                decoding="async"
+                height="50"
+                src="/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=128&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=64&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=128&q=75 2x"
+                style="color: transparent;"
+                width="50"
+              />
+            </div>
+            <div
+              class="c19"
+            >
+              <h4>
+                Mateus Duarte
+              </h4>
+              <p>
+                03/02/2023
+              </p>
+            </div>
+          </div>
+          <div
+            class="c20"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z"
+              />
+            </svg>
+            <h1
+              class="c21"
+            >
+              0
+            </h1>
+          </div>
+        </div>
+      </article>
+      <article
+        class="c14"
+        id="103560046"
+      >
+        <img
+          alt="css svg"
+          data-nimg="1"
+          decoding="async"
+          height="198"
+          loading="lazy"
+          src="https://www.datocms-assets.com/90479/1674241443-css2.svg"
+          srcset="https://www.datocms-assets.com/90479/1674241443-css2.svg 1x, https://www.datocms-assets.com/90479/1674241443-css2.svg 2x"
+          style="color: transparent;"
+          width="260"
+        />
+        <h1
+          class="c15"
+          color="black"
+        >
+          HTML5
+        </h1>
+        <div
+          class="c16"
+        >
+          <div
+            class="c17"
+          >
+            <div
+              class="c18"
+            >
+              <img
+                alt="author image"
+                data-nimg="1"
+                decoding="async"
+                height="50"
+                src="/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=128&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=64&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=128&q=75 2x"
+                style="color: transparent;"
+                width="50"
+              />
+            </div>
+            <div
+              class="c19"
+            >
+              <h4>
+                Mateus Duarte
+              </h4>
+              <p>
+                03/02/2023
+              </p>
+            </div>
+          </div>
+          <div
+            class="c20"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z"
+              />
+            </svg>
+            <h1
+              class="c21"
+            >
+              0
+            </h1>
+          </div>
+        </div>
+      </article>
+      <article
+        class="c14"
+        id="92697360"
+      >
+        <img
+          alt="html svg"
+          data-nimg="1"
+          decoding="async"
+          height="198"
+          loading="lazy"
+          src="https://www.datocms-assets.com/90479/1674241439-css.svg"
+          srcset="https://www.datocms-assets.com/90479/1674241439-css.svg 1x, https://www.datocms-assets.com/90479/1674241439-css.svg 2x"
+          style="color: transparent;"
+          width="260"
+        />
+        <h1
+          class="c15"
+          color="black"
+        >
+          o que é HTML5 ?
+        </h1>
+        <div
+          class="c16"
+        >
+          <div
+            class="c17"
+          >
+            <div
+              class="c18"
+            >
+              <img
+                alt="author image"
+                data-nimg="1"
+                decoding="async"
+                height="50"
+                src="/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=128&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=64&q=75 1x, /_next/image?url=https%3A%2F%2Fwww.datocms-assets.com%2F90479%2F1673505399-67812250_126640048653747_8066872119595701241_n.jpg&w=128&q=75 2x"
+                style="color: transparent;"
+                width="50"
+              />
+            </div>
+            <div
+              class="c19"
+            >
+              <h4>
+                Mateus Duarte
+              </h4>
+              <p>
+                03/02/2023
+              </p>
+            </div>
+          </div>
+          <div
+            class="c20"
+          >
+            <svg
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 1024 1024"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z"
+              />
+            </svg>
+            <h1
+              class="c21"
+            >
+              0
+            </h1>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+  <div
+    class="c22"
+  >
+    <div
+      class="c23"
+    >
+      <img
+        alt="subscribe icon"
+        src="https://www.datocms-assets.com/90479/1674241446-iconsubscribe.svg"
+      />
+      <h1
+        class="c7"
+      >
+        Inscreva-se para receber novidades
+      </h1>
+      <span>
+        Inscreva-se para receber novidades da semana
+      </span>
+      <form
+        class="c24"
+      >
+        <input
+          class="c25"
+          name="email"
+          placeholder="E-mail"
+          type="email"
+        />
+        <button
+          class="c26"
+          type="submit"
+        >
+          Clique aqui
+        </button>
+      </form>
+    </div>
+  </div>
+</main>
+`;
