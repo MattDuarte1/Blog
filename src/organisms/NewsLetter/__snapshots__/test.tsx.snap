@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Newsletter> Should match snapshot component 1`] = `
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 20px 23px 19px;
+  gap: 10px;
+  border: none;
+  cursor: pointer;
+  min-width: 145px;
+  height: 67px;
+  font-weight: 700;
+  color: #ffff;
+  background: #6246EA;
+  border-radius: 8px;
+  -webkit-transition: filter 0.4s ease;
+  transition: filter 0.4s ease;
+}
+
+.c5:hover {
+  -webkit-filter: brightness(1.1);
+  filter: brightness(1.1);
+}
+
+.c2 {
+  font-family: 'Plus Jakarta Sans','sans-serif';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: capitalize;
+  font-size: 3.576rem;
+  text-transform: none;
+  color: #2B2C34;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 58px;
+  gap: 10px;
+  background-color: #E4E5E9;
+  width: 100%;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+  max-width: 696px;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+  width: 100%;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+  padding: 21px 21px 21px 25px;
+  width: 300px;
+  height: 67px;
+  background: #fffffe;
+  border-radius: 8px;
+  border: none;
+}
+
+.c4:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+@media (max-width:400px) {
+  .c2 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width:700px) {
+  .c1 > h1 {
+    font-size: 2.4rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <img
+      alt="icon newsletter"
+      src="/jpg"
+    />
+    <h1
+      class="c2"
+    >
+      Inscreva-se para receber novidades
+    </h1>
+    <span>
+      Inscreva-se para receber novidades da semana
+    </span>
+    <form
+      class="c3"
+    >
+      <input
+        class="c4"
+        name="email"
+        placeholder="E-mail"
+        type="email"
+      />
+      <button
+        class="c5"
+        type="submit"
+      >
+        Clique aqui
+      </button>
+    </form>
+  </div>
+</div>
+`;
