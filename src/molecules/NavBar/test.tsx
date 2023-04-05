@@ -40,7 +40,6 @@ describe('<NavBar />', () => {
 
     fireEvent.click(subscribButton);
     expect(signIn).toHaveBeenCalledTimes(1);
-    screen.debug(subscribButton);
   });
 
   it('should call signOut when clicked in closeButton Svg(MdClose)', () => {

@@ -1,6 +1,6 @@
 import CategoryCard, { CategoryCardProps } from '.';
 import { renderTheme } from '@/styles/render-theme';
-import { screen } from '@testing-library/react';
+import { fireEvent, screen } from '@testing-library/react';
 import { theme } from '@/styles/theme';
 
 describe('<CategoryCard />', () => {
@@ -62,6 +62,14 @@ describe('<CategoryCard />', () => {
       filter: 'drop-shadow(4px 6px 13px rgba(0,0,0,0.1))',
       'border-radius': '8px',
     });
+  });
+
+  it('Should call function when CategoryCard is clicked', () => {
+    renderTheme(<CategoryCard {...Mockprops} />);
+
+    expect(screen.getByRole('article')).toBeInTheDocument();
+    fireEvent.click(screen.getByRole('article'));
+    expect(handleSelectCategory).toHaveBeenCalledTimes(1);
   });
 
   it('Should match snapshot', () => {
