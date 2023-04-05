@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Hero /> Should match snapshot component 1`] = `
+.c0 {
+  width: 100%;
+  padding: 28.8rem 2.4rem;
+  min-height: 700px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FFFFFE;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.c1 {
+  max-height: 400px;
+  max-width: 664px;
+  padding: 25px display:flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.c1 span {
+  color: transparent;
+  width: 5px;
+  height: 100%;
+  width: 2px;
+  -webkit-animation: gqltWr 1s infinite;
+  animation: gqltWr 1s infinite;
+}
+
+.c4 {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: block;
+}
+
+.c3 {
+  padding-left: 15px;
+  margin-top: 25px;
+  font-family: 'Plus Jakarta Sans','sans-serif';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  color: #9A9494;
+  line-height: 25px;
+  margin-left: 20px;
+  position: relative;
+}
+
+.c3::before {
+  content: '';
+  position: absolute;
+  left: 0px;
+  background-color: #2B2C34;
+  width: 5px;
+  height: 100%;
+}
+
+.c2 {
+  font-family: 'Plus Jakarta Sans','sans-serif';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: capitalize;
+  font-size: 6.4rem;
+  text-transform: none;
+  color: #2B2C34;
+}
+
+@media (max-width:999px) {
+  .c0 {
+    padding: 10.06rem 2.4rem;
+  }
+}
+
+@media (max-width:700px) {
+  .c4 img {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media (max-width:400px) {
+  .c3 {
+    margin-top: 20px;
+    font-size: 1.617rem;
+    line-height: normal;
+  }
+}
+
+@media (max-width:700px) {
+  .c3 {
+    margin-top: 40px;
+    font-size: 2.156rem;
+    line-height: normal;
+  }
+}
+
+@media (max-width:700px) {
+  .c2 {
+    font-size: 4.8rem;
+  }
+}
+
+@media (max-width:400px) {
+  .c2 {
+    font-size: 3.576rem;
+  }
+}
+
+<div>
+  <section
+    class="c0"
+    id="hero"
+  >
+    <aside
+      class="c1"
+    >
+      <h1
+        class="c2"
+      >
+        Bem vindo ao blog
+      </h1>
+      <p
+        class="c3"
+      >
+        Blog desenvolvido por Mateus Duarte para fins educacionais
+      </p>
+    </aside>
+    <aside
+      class="c1 c4"
+    >
+      <img
+        alt="alt imagem"
+        data-nimg="1"
+        decoding="async"
+        height="350"
+        src="https://www.datocms-assets.com/90479/1672435055-group.svg"
+        srcset="https://www.datocms-assets.com/90479/1672435055-group.svg 1x, https://www.datocms-assets.com/90479/1672435055-group.svg 2x"
+        style="color: transparent;"
+        width="350"
+      />
+    </aside>
+  </section>
+</div>
+`;
