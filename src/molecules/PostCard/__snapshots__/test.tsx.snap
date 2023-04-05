@@ -150,7 +150,7 @@ exports[`<PostCard> Should match snapshot component 1`] = `
   id="95380751"
 >
   <img
-    alt="aa"
+    alt="vuejs svg"
     data-nimg="1"
     decoding="async"
     height="198"
@@ -193,7 +193,7 @@ exports[`<PostCard> Should match snapshot component 1`] = `
           Mateus Duarte
         </h4>
         <p>
-          02/03/2023
+          03/02/2023
         </p>
       </div>
     </div>
