@@ -22,6 +22,8 @@ module.exports = {
     '!<rootDir>/src/interfaces/**/*.{js,jsx,ts,tsx}',
     '!<rootDir>/src/contexts/Theme/type.{js,jsx,ts,tsx}',
     '!<rootDir>/src/contexts/Theme/actions.{js,jsx,ts,tsx}',
+    '!<rootDir>/src/components/HeadComponent/**/*.{js,jsx,ts,tsx}',
+    '!<rootDir>/src/components/Layout/**/*.{js,jsx,ts,tsx}',
     '!<rootDir>/node_modules/',
   ],
   testEnvironment: 'jsdom',

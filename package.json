@@ -10,7 +10,8 @@
     "lint": "eslint src --max-warnings=0",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "coverage": "npm run test -- --watchAll=false --coverage"
   },
   "dependencies": {
     "@next-auth/mongodb-adapter": "^0.0.2-next.298",
