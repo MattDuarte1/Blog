@@ -1,43 +1,97 @@
 import { blogContextReducer } from './reducer';
-import { Actions } from './actions';
 import { InitialStateType, INITIAL_STATE } from '.';
 import { theme } from '@/styles/theme';
 import { IAction } from './type';
+import { act, renderHook } from '@testing-library/react';
+import { useBlogContext } from './hook';
+import { ThemeProvider } from './provider';
 
-const initialState: InitialStateType = {
-  theme: theme,
-  drawerIsOpen: false,
-  categorySelected: null,
-};
+describe('blogContextProvider', () => {
+  it('should update drawerIsOpen when activeDrawer is called', () => {
+    const { result } = renderHook(() => useBlogContext(), {
+      wrapper: ThemeProvider,
+    });
+    const { activeDrawer } = result.current;
 
-describe('blogContextReducer', () => {
-  it('should update drawerIsOpen in state', () => {
-    const action = { type: Actions.setDrawer };
-    const result = blogContextReducer(initialState, action);
-    expect(result.drawerIsOpen).toBe(true);
+    act(() => {
+      activeDrawer();
+    });
+
+    expect(result.current.state.drawerIsOpen).toBe(true);
   });
 
-  it('should update categorySelected when setCategorySelected action is dispatched', () => {
-    // if categorySelected !== Actions.setcategorySelected
-    const action1 = {
-      type: Actions.setCategorySelected,
-      payload: { categorySelected: 'javascript' },
-    };
-    const newState1 = blogContextReducer(initialState, action1);
-    expect(newState1.categorySelected).toBe('javascript');
+  it('should update categorySelected when changeCateogry is called', () => {
+    const { result } = renderHook(() => useBlogContext(), {
+      wrapper: ThemeProvider,
+    });
+    const { changeCategory } = result.current;
 
-    // if categorySelected === Actions.setcategorySelected return null
-    initialState.categorySelected = 'typescript';
-    const action2 = {
-      type: Actions.setCategorySelected,
-      payload: { categorySelected: 'typescript' },
-    };
-    const newState2 = blogContextReducer(initialState, action2);
-    expect(newState2.categorySelected).toBe(null);
+    act(() => {
+      changeCategory('javascript');
+    });
+
+    expect(result.current.state.categorySelected).toEqual('javascript');
   });
 
-  it('should throw an error for unknown action types', () => {
-    const initialState = { ...INITIAL_STATE };
+  it('should update categorySelected to null when is the same as passed in parameter of changeCategory', () => {
+    const { result } = renderHook(() => useBlogContext(), {
+      wrapper: ThemeProvider,
+    });
+    const { changeCategory, state } = result.current;
+
+    state.categorySelected = 'typescript';
+    act(() => {
+      changeCategory('typescript');
+    });
+
+    expect(result.current.state.categorySelected).toEqual(null);
+  });
+
+  it('should update the theme when changeTheme is called and mode param is not passed', () => {
+    const { result } = renderHook(() => useBlogContext(), {
+      wrapper: ThemeProvider,
+    });
+    const { changeTheme } = result.current;
+
+    act(() => {
+      changeTheme(undefined);
+    });
+
+    expect(result.current.state.theme.name).toEqual('inverted');
+  });
+
+  it('should update the theme when changeTheme is called and mode param is default', () => {
+    const { result } = renderHook(() => useBlogContext(), {
+      wrapper: ThemeProvider,
+    });
+    const { changeTheme } = result.current;
+
+    act(() => {
+      changeTheme('default');
+    });
+
+    expect(result.current.state.theme.name).toEqual('default');
+  });
+
+  it('should update the theme when changeTheme is called and mode param not is default', () => {
+    const { result } = renderHook(() => useBlogContext(), {
+      wrapper: ThemeProvider,
+    });
+    const { changeTheme } = result.current;
+
+    act(() => {
+      changeTheme('inverted');
+    });
+
+    expect(result.current.state.theme.name).toEqual('inverted');
+  });
+
+  it('should throw an error for unknown action types in reducer.ts', () => {
+    const initialState: InitialStateType = {
+      theme: theme,
+      drawerIsOpen: false,
+      categorySelected: null,
+    };
     const unknownAction = { type: 'UNKNOW' };
     expect(() =>
       blogContextReducer(initialState, unknownAction as IAction),

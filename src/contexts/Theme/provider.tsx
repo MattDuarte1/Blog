@@ -1,8 +1,5 @@
-import { useCallback, useEffect, useReducer } from 'react';
-import {
-  DefaultTheme,
-  ThemeProvider as StyledThemeProvider,
-} from 'styled-components';
+import { useCallback, useReducer } from 'react';
+import { ThemeProvider as StyledThemeProvider } from 'styled-components';
 import { Actions } from './actions';
 import { theme } from '@/styles/theme';
 import { ThemeContext, INITIAL_STATE, newTheme } from './index';
@@ -25,7 +22,6 @@ export const ThemeProvider = ({ children }: ThemeProviderProps) => {
     [dispatch],
   );
 
-  // istanbul ignore next
   const changeCategory = useCallback((category: string) => {
     dispatch({
       type: Actions.setCategorySelected,
@@ -35,20 +31,11 @@ export const ThemeProvider = ({ children }: ThemeProviderProps) => {
     });
   }, []);
 
-  // istanbul ignore next
   const activeDrawer = useCallback(() => {
     dispatch({
       type: Actions.setDrawer,
     });
   }, [dispatch]);
-
-  useEffect(() => {
-    const themeStorage = localStorage.getItem('theme');
-    if (themeStorage) {
-      const newTheme: DefaultTheme = JSON.parse(themeStorage);
-      changeTheme(newTheme.name);
-    }
-  }, [changeTheme]);
 
   return (
     <ThemeContext.Provider
