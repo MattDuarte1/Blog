@@ -5,7 +5,6 @@ import { request } from '@/lib/datocms';
 import { IPost } from '@/interfaces/Post';
 import { useRouter } from 'next/router';
 import { PostPage } from '@/templates/Post';
-import { NotFoundPage } from '@/templates/NotFoundPage';
 import { useFetch } from '@/lib/fetcher';
 
 interface SobreProps {
