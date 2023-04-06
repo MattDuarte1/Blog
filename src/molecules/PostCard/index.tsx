@@ -4,6 +4,8 @@ import Image from 'next/image';
 import { AiOutlineEye } from 'react-icons/ai';
 import { IPost } from '@/interfaces/Post';
 import { forwardRef } from 'react';
+import { useFetch } from '@/lib/fetcher';
+import { useRouter } from 'next-router-mock';
 
 type PostCardProps = IPost & {
   onClick?: (e: React.MouseEvent<HTMLDivElement>) => void;
@@ -12,10 +14,18 @@ type PostCardProps = IPost & {
 const PostCard = forwardRef<HTMLElement, PostCardProps>(
   ({ title, authorCompact, image, createdAt, id, onClick, ...props }, ref) => {
     const newFormatDataBR = new Date(createdAt).toLocaleDateString();
+    const { isPreview } = useRouter();
+    const isPreviewMod = isPreview ? 'page-views-preview' : 'page-views';
+    const { data: viewsData } = useFetch(`/api/${isPreviewMod}?id=${title}`);
 
     return (
       <Styled.Container onClick={onClick} id={id} ref={ref} {...props}>
-        <Image src={image.url} alt={image.alt} width={260} height={198} />
+        <Image
+          src={image.url}
+          alt={image.alt ? image.alt : 'image alt'}
+          width={260}
+          height={198}
+        />
         <Heading size="xsmall" color="black">
           {title}
         </Heading>
@@ -37,7 +47,7 @@ const PostCard = forwardRef<HTMLElement, PostCardProps>(
           </Styled.AuthorDescription>
           <Styled.ViewBox>
             <AiOutlineEye />
-            <Heading size="small">0</Heading>
+            <Heading size="small">{viewsData ? viewsData.total : 0}</Heading>
           </Styled.ViewBox>
         </Styled.AuthorContent>
       </Styled.Container>

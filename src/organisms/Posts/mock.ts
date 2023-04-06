@@ -146,7 +146,7 @@ export default [
     title: 'o que é HTML5 ?',
     image: {
       url: 'https://www.datocms-assets.com/90479/1674241439-css.svg',
-      alt: 'html svg',
+      alt: undefined,
     },
     createdAt: '2023-02-03T09:07:58+00:00',
     authorCompact: {

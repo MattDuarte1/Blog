@@ -1277,7 +1277,7 @@ exports[`<HomeTemplate> Should match snapshot HomeTemplate component 1`] = `
         id="92697360"
       >
         <img
-          alt="html svg"
+          alt="image alt"
           data-nimg="1"
           decoding="async"
           height="198"
