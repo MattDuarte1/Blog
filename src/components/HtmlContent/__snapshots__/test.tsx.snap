@@ -1,0 +1,725 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HtmlContent> Should match snapshot component 1`] = `
+.c0 {
+  background-color: #FFFFFE;
+  font-size: calc(2.156rem + 0.2rem);
+  padding: 10rem;
+  max-width: 100%;
+  line-height: 1.5;
+}
+
+.c0 iframe {
+  width: 500px;
+}
+
+.c0 button {
+  background-color: #E4E5E9;
+  padding: 1.617rem;
+  cursor: pointer;
+  border: none;
+}
+
+.c0 p {
+  margin: 2.4rem 0;
+}
+
+.c0 a,
+.c0 a:visited,
+.c0 a:link {
+  color: #C0C0C0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c0 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.c0 code {
+  font-family: monospace;
+  color: #2B2C34;
+  font-size: 1.617rem;
+  background: #9A9494;
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
+.c0 pre {
+  background: #9A9494;
+  padding: 2.4rem;
+  font-family: monospace;
+  color: #2B2C34;
+  margin: 2.4rem 0;
+  width: 100%;
+  overflow-x: auto;
+  font-size: 2.156rem;
+}
+
+.c0 pre code {
+  color: inherit;
+  background: inherit;
+}
+
+.c0 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.c0 hr {
+  border: none;
+  border-bottom: 0.1rem solid #EFF0F3;
+}
+
+.c0 ul,
+.c0 ol {
+  margin: 2.4rem 4.8rem;
+}
+
+.c0 .table {
+  width: 100%;
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.c0 table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 2.4rem 0;
+  background-color: #9A9494;
+}
+
+.c0 table td,
+.c0 table th {
+  padding: 1.617rem;
+  border: 0.1rem solid #EFF0F3;
+}
+
+.c0 blockquote {
+  border-left: 0.5rem solid #EFF0F3;
+  color: #9A9494;
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+  padding-left: 2.4rem;
+  font-style: italic;
+  margin: 2.4rem;
+}
+
+@media (max-width:700px) {
+  .c0 {
+    font-size: 2rem;
+    padding: 3rem;
+  }
+
+  .c0 iframe {
+    width: 100%;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <p>
+      Se você deseja se tornar um desenvolvedor web para poder desenvolver páginas completas, com layouts elegantes e conteúdo dinâmico, você precisa conhecer o JavaScript.
+    </p>
+    
+
+    <p>
+      O JavaScript é a terceira etapa para construirmos um site profissional. No post anterior conhecemos as duas primeiras etapas:
+      <span>
+         
+      </span>
+      <a
+        href="https://www.treinaweb.com.br/blog/como-comecar-com-html-e-css/"
+        title="o HTML e o CSS"
+      >
+        o HTML e o CSS
+      </a>
+      , e nesse artigo vamos conhecer sobre como deixar o conteúdo de nossas páginas mais interativo utilizando o JavaScript.
+    </p>
+    
+
+    <h2>
+      O que é JavaScript?
+    </h2>
+    
+
+    <p>
+      Antes de começarmos a abordar o que vem a ser o JavaScript, é muito importante ressaltar que JavaScript não tem nada a ver com Java.
+    </p>
+    
+
+    <p>
+      Quando essa linguagem foi lançada, ela tinha o nome oficial de LiveScript, criada pela Netscape. Como nessa época o Java estava conquistando cada vez mais o mercado, a Netscape quis aproveitar a popularidade do recém-lançado Java, através de um acordo com a Sun, mudando então seu nome para JavaScript.
+    </p>
+    
+
+    <p>
+      Essa mudança ainda causa confusão dando a impressão de que a linguagem foi baseada em Java, mas não… foi tudo uma estratégia de marketing. Agora sim, podemos conhecer o que realmente vem a ser o JavaScript.
+    </p>
+    
+
+    <p>
+      O JavaScript é uma linguagem de programação interpretada, sendo a principal linguagem cliente-servidor em navegadores web. Ela é responsável pelo dinamismo de uma página, ou seja, promover a interação com o usuário, sendo executados do lado do cliente. É uma linguagem script com orientação a objetos dinâmica e com tipagem fraca.
+    </p>
+    
+
+    <p>
+      Existem três camadas básicas no desenvolvimento web: o HTML e o CSS (como vimos no post anterior) e por fim a terceira camada que é o JavaScript, que como vimos acima, fica com a parte de comportamento da página.
+    </p>
+    
+
+    <h2>
+      Quem usa JavaScript?
+    </h2>
+    
+
+    <p>
+      Várias empresas e sites conhecidos utilizam JavaScript na parte de front-end, desde aplicações mais simples como as mais complexas. Temos como exemplo a Google, Youtube, Facebook, Ebay, Yahoo, Twitter, Linkedin, dentre muitos outros. Quase toda aplicação Web tem a necessidade de usar JavaScript. E, hoje em dia, o JavaScript não se limita apenas à web, ele tem sua vertente server-side, mobile etc.
+    </p>
+    
+
+    <h2>
+      Sintaxe do JavaScript
+    </h2>
+    
+
+    <p>
+      A sintaxe do JavaScript é muito simples. Você pode utilizar o JavaScript dentro do seu código HTML. Para criarmos o nosso clássico “Hello World”, é só colocamos a escrita dentro de um “alert”. Com o alert nosso texto aparecerá dentro de uma janela de alerta.
+    </p>
+    
+
+    <p>
+      <button
+        class="copy-code-button"
+        type="button"
+      >
+        Copiar
+      </button>
+    </p>
+    
+
+    <pre
+      class=" language-html"
+      tabindex="0"
+    >
+      <code
+        class=" language-html"
+      >
+        <span
+          class="token tag"
+        >
+          <span
+            class="token punctuation"
+          >
+            &lt;
+          </span>
+          script 
+          <span
+            class="token attr-name"
+          >
+            type
+          </span>
+          <span
+            class="token attr-value"
+          >
+            <span
+              class="token punctuation attr-equals"
+            >
+              =
+            </span>
+            <span
+              class="token punctuation"
+            >
+              "
+            </span>
+            text/javascript
+            <span
+              class="token punctuation"
+            >
+              "
+            </span>
+          </span>
+          <span
+            class="token punctuation"
+          >
+            &gt;
+          </span>
+        </span>
+        <span
+          class="token script"
+        >
+          <span
+            class="token language-javascript"
+          >
+            
+       
+            <span
+              class="token function"
+            >
+              alert
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token string"
+            >
+              'Hello World!'
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+            <span
+              class="token punctuation"
+            >
+              ;
+            </span>
+            
+
+          </span>
+        </span>
+        <span
+          class="token tag"
+        >
+          <span
+            class="token punctuation"
+          >
+            &lt;/
+          </span>
+          script
+          <span
+            class="token punctuation"
+          >
+            &gt;
+          </span>
+        </span>
+        
+
+      </code>
+    </pre>
+    
+
+    <p>
+      Realizar uma estrutura de condição no JavaScript também é simples:
+    </p>
+    
+
+    <p>
+      <button
+        class="copy-code-button"
+        type="button"
+      >
+        Copiar
+      </button>
+    </p>
+    
+
+    <pre
+      class=" language-html"
+      tabindex="0"
+    >
+      <code
+        class=" language-html"
+      >
+        <span
+          class="token tag"
+        >
+          <span
+            class="token punctuation"
+          >
+            &lt;
+          </span>
+          script
+          <span
+            class="token punctuation"
+          >
+            &gt;
+          </span>
+        </span>
+        <span
+          class="token script"
+        >
+          <span
+            class="token language-javascript"
+          >
+            
+    
+            <span
+              class="token keyword"
+            >
+              var
+            </span>
+             curso 
+            <span
+              class="token operator"
+            >
+              =
+            </span>
+             
+            <span
+              class="token string"
+            >
+              'javascript'
+            </span>
+            <span
+              class="token punctuation"
+            >
+              ;
+            </span>
+            
+    
+            <span
+              class="token keyword control-flow"
+            >
+              if
+            </span>
+             
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            curso 
+            <span
+              class="token operator"
+            >
+              ===
+            </span>
+             
+            <span
+              class="token string"
+            >
+              'javascript'
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+             
+            <span
+              class="token punctuation"
+            >
+              {
+            </span>
+            
+        
+            <span
+              class="token function"
+            >
+              alert
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token string"
+            >
+              'Oba! Então inicie agora mesmo seus estudos em JavaScript.'
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+            <span
+              class="token punctuation"
+            >
+              ;
+            </span>
+            
+    
+            <span
+              class="token punctuation"
+            >
+              }
+            </span>
+             
+            <span
+              class="token keyword control-flow"
+            >
+              else
+            </span>
+             
+            <span
+              class="token punctuation"
+            >
+              {
+            </span>
+            
+        
+            <span
+              class="token function"
+            >
+              alert
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token string"
+            >
+              'Ah! Parece que JavaScript não é sua linguagem favorita...'
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+            <span
+              class="token punctuation"
+            >
+              ;
+            </span>
+            
+    
+            <span
+              class="token punctuation"
+            >
+              }
+            </span>
+            
+
+          </span>
+        </span>
+        <span
+          class="token tag"
+        >
+          <span
+            class="token punctuation"
+          >
+            &lt;/
+          </span>
+          script
+          <span
+            class="token punctuation"
+          >
+            &gt;
+          </span>
+        </span>
+        
+
+      </code>
+    </pre>
+    
+
+    <p>
+      No JavaScript você também pode definir suas próprias funções. Vamos então escrever uma função que recebe dois números e realiza a operação de multiplicação:
+    </p>
+    
+
+    <p>
+      <button
+        class="copy-code-button"
+        type="button"
+      >
+        Copiar
+      </button>
+    </p>
+    
+
+    <pre
+      class=" language-javascript"
+      tabindex="0"
+    >
+      <code
+        class=" language-javascript"
+      >
+        <span
+          class="token keyword"
+        >
+          function
+        </span>
+         
+        <span
+          class="token function"
+        >
+          multiplicacao
+        </span>
+        <span
+          class="token punctuation"
+        >
+          (
+        </span>
+        <span
+          class="token parameter"
+        >
+          num1
+          <span
+            class="token punctuation"
+          >
+            ,
+          </span>
+          num2
+        </span>
+        <span
+          class="token punctuation"
+        >
+          )
+        </span>
+         
+        <span
+          class="token punctuation"
+        >
+          {
+        </span>
+        
+     
+        <span
+          class="token keyword"
+        >
+          var
+        </span>
+         resultado 
+        <span
+          class="token operator"
+        >
+          =
+        </span>
+         num1 
+        <span
+          class="token operator"
+        >
+          *
+        </span>
+         num2
+        <span
+          class="token punctuation"
+        >
+          ;
+        </span>
+        
+     
+        <span
+          class="token keyword control-flow"
+        >
+          return
+        </span>
+         resultado
+        <span
+          class="token punctuation"
+        >
+          ;
+        </span>
+        
+
+        <span
+          class="token punctuation"
+        >
+          }
+        </span>
+        
+
+      </code>
+    </pre>
+    
+
+    <h2>
+      Mercado de trabalho
+    </h2>
+    
+
+    <p>
+      Como pudemos ver o JavaScript é uma das etapas do desenvolvimento web. Com isso, é obrigatório um desenvolvedor conhecer essa linguagem. Existem várias bibliotecas para se trabalhar com JavaScript, por isso é importante ter conhecimento de algumas delas, pois é muito comum elas serem requisitos para o preenchimento de vagas JavaScript.
+    </p>
+    
+
+    <p>
+      Além da adequação ao mercado de trabalho, conhecer essas bibliotecas garante um aumento de produtividade e facilidade em tarefas comuns do dia a dia.
+    </p>
+    
+
+    <p>
+      Sendo assim, como todos os sites possuem algum tipo de interação utilizando o JavaScript, dificilmente você ficará fora do mercado.
+    </p>
+    
+
+    <h2>
+      Como aprender JavaScript?
+    </h2>
+    
+
+    <p>
+      Aqui no TreinaWeb temos toda uma trilha voltada para o JavaScript. Para você começar nessa linguagem, recomendamos o curso “JavaScript Básico”.
+    </p>
+    
+
+    <p>
+      Com ele, você aprenderá desde os conceitos básicos, fazendo com que você entenda toda a estrutura da linguagem.
+    </p>
+    
+
+    <p>
+      Aliando a teoria com a prática, você também irá desenvolver programas que irão interagir com os elementos de uma página web.
+    </p>
+    
+
+    <h2>
+      Conheça nossa metodologia
+    </h2>
+    
+
+    <p>
+      Nosso ambiente de aprendizagem é 100% online. Nossa metodologia de ensino é baseada em vídeo aulas, apostilas, exercícios aula-a-aula e exemplos completos. Você estuda no seu tempo e ao final pode baixar o seu certificado digital ou solicitar o certificado impresso.
+    </p>
+    
+
+    <p>
+      Na parte escrita, fornecemos um material totalmente atualizado e completo para que você possa usufruir do conteúdo, utilizando-se de textos e imagens. Já as vídeo-aulas são bem explicativas e práticas, abordando todo o conteúdo passo-a-passo, para que você entenda tudo da melhor maneira possível.
+    </p>
+    
+
+    <p>
+      Além disso, você encontrará exercícios para poder fixar, praticar e aplicar todo o conteúdo aprendido. São exercícios que são propostos em cada aula do curso. Eles podem variar entre alguns formatos, como por exemplo questões de escolha única, questões de múltipla escolha e complemento de trechos de código.
+    </p>
+    
+
+    <p>
+      Se ainda assim você tiver alguma dúvida, você poderá pedir ajuda aos nossos professores através de tickets de atendimento. Funciona como um canal direto entre você e o professor, onde você poderá realizar perguntas que serão respondidas muito brevemente!
+    </p>
+    
+
+    <p>
+      Além disso, ainda pelo sistema suporte, você também poderá consultar todas as perguntas que já foram respondidas a outros alunos! =)
+    </p>
+    
+
+    <h2>
+      Quais conhecimentos preciso ter para iniciar este curso?
+    </h2>
+    
+
+    <p>
+      O curso é recomendado para você iniciar seus estudos na linguagem JavaScript, no entanto, é interessante saber as bases necessárias para aprender qualquer linguagem de programação: “Lógica de Programação” e “Lógica de Programação Orientada a Objetos”.
+    </p>
+    
+
+    <h2>
+      Gostou do que viu?
+    </h2>
+    
+
+    <p>
+      Se entusiasmou com o JavaScript? Gostaria de conhecê-lo com mais detalhes? Sim, você pode dar uma espiadinha. Acesse o curso de JavaScript e veja algumas aulas de exemplo. :)
+    </p>
+    
+
+    <p>
+      Bons estudos!
+    </p>
+  </div>
+</div>
+`;
