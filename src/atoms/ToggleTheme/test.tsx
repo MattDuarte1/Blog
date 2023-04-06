@@ -1,57 +1,42 @@
 import { fireEvent, screen } from '@testing-library/react';
 import ToggleTheme from '.';
 import { renderTheme } from '@/styles/render-theme';
-import { theme } from '@/styles/theme';
 
 describe('<ToggleTheme />', () => {
-  beforeEach(() => {
-    localStorage.setItem(
-      'theme',
-      JSON.stringify({ ...theme, name: 'inverted' }),
-    );
-  });
-
-  afterEach(() => {
-    localStorage.removeItem('theme');
-  });
-
-  it('Should render input default theme', () => {
-    localStorage.removeItem('theme');
-    renderTheme(<ToggleTheme />);
+  it('Should render default theme when input not checked', () => {
+    const checked = false;
+    const handleChange = jest.fn();
+    renderTheme(<ToggleTheme checked={checked} onChange={handleChange} />);
     const input = screen.getByRole('checkbox');
 
     expect(input).not.toBeChecked();
   });
 
-  it('Should render input default theme when local storage default', () => {
-    localStorage.setItem(
-      'theme',
-      JSON.stringify({ ...theme, name: 'default' }),
-    );
-    renderTheme(<ToggleTheme />);
+  it('Should render inverted theme when input is checked', () => {
+    const checked = true;
+    const handleChange = jest.fn();
+    renderTheme(<ToggleTheme checked={checked} onChange={handleChange} />);
     const input = screen.getByRole('checkbox');
 
-    expect(input).not.toBeChecked();
-  });
-
-  it('Should render input inverted theme when local storage inverted', () => {
-    renderTheme(<ToggleTheme />);
-    const input = screen.getByRole('checkbox');
     expect(input).toBeChecked();
   });
 
-  it('Should render input and toggle between theme when toggling input', () => {
-    const { container } = renderTheme(<ToggleTheme />);
-
-    const label = screen.getByLabelText('toggle change theme');
+  it('Should call onChange when input is clicked', () => {
+    const checked = true;
+    const handleChange = jest.fn();
+    renderTheme(<ToggleTheme checked={checked} onChange={handleChange} />);
     const input = screen.getByRole('checkbox');
+    expect(input).toBeInTheDocument();
 
-    fireEvent.click(label);
-    expect(input).not.toBeChecked();
+    fireEvent.click(input);
+    expect(handleChange).toHaveBeenCalled();
+  });
 
-    fireEvent.click(label);
-    expect(input).toBeChecked();
+  it('Should match snapshot component', () => {
+    const { container } = renderTheme(
+      <ToggleTheme checked={false} onChange={jest.fn()} />,
+    );
 
-    expect(container).toMatchSnapshot();
+    expect(container.firstElementChild).toMatchSnapshot();
   });
 });
