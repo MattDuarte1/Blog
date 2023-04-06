@@ -1,4 +1,4 @@
-import { Header } from '.';
+import Header from '.';
 import { renderTheme } from '@/styles/render-theme';
 import React from 'react';
 import { fireEvent, screen } from '@testing-library/react';

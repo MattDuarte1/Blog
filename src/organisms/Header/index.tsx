@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { forwardRef, useState } from 'react';
 import Logo from '@/atoms/Logo';
 import NavBar from '@/molecules/NavBar';
 import { IMenu } from '@/interfaces/Menu';
@@ -12,7 +12,7 @@ interface StateMenuInterface {
   menus: IMenu[];
 }
 
-export const Header = () => {
+const Header = forwardRef<HTMLElement>((props, ref) => {
   const [data, _] = useState<StateMenuInterface>({
     drawerIsOpen: false,
     menus: [
@@ -28,7 +28,7 @@ export const Header = () => {
   } = useBlogContext();
 
   return (
-    <Styled.Container id="header">
+    <Styled.Container id="header" ref={ref} {...props}>
       <Link href={'/'}>
         <Logo />
       </Link>
@@ -39,4 +39,8 @@ export const Header = () => {
       />
     </Styled.Container>
   );
-};
+});
+
+Header.displayName = 'Header Component';
+
+export default Header;
