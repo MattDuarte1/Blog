@@ -8,7 +8,7 @@ export interface IPost {
     url: string;
     alt?: string;
   };
-  content?: Document | Node | string;
+  content?: string;
   createdAt: string;
   description?: string;
   authorCompact: {
