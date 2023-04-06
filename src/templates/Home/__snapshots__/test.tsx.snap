@@ -605,7 +605,7 @@ exports[`<HomeTemplate> Should match snapshot HomeTemplate component 1`] = `
       <p
         class="c3"
       >
-        Blog desenvolvido por Mateus Duarte para fins educacionais
+        Esse blog foi desenvolvido com o intuito de colocar no portfólio para demonstrar minhas habilidades.
       </p>
     </aside>
     <aside

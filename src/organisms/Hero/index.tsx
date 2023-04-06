@@ -17,9 +17,7 @@ const Hero = forwardRef<HTMLDivElement, HeroProps>(
       <Styled.Container id="hero" ref={ref} {...props}>
         <Styled.AsideLeft>
           <Heading size={'xxlarge'}>{data.title}</Heading>
-          <Styled.Description>
-            Blog desenvolvido por Mateus Duarte para fins educacionais
-          </Styled.Description>
+          <Styled.Description>{data.description}</Styled.Description>
         </Styled.AsideLeft>
         <Styled.AsideRight>
           <Image
