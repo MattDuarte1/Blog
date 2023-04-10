@@ -24,7 +24,7 @@ const ArtigoHeader = styled.section<{ url: string }>`
 
     h1,
     span {
-      color: ${theme.name === 'inverted' ? theme.colors.black : 'white'};
+      color: #fff;
     }
   `}
 `;
