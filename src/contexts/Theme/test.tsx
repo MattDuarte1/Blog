@@ -1,5 +1,5 @@
 import { blogContextReducer } from './reducer';
-import { InitialStateType, INITIAL_STATE } from '.';
+import { InitialStateType } from '.';
 import { theme } from '@/styles/theme';
 import { IAction } from './type';
 import { act, renderHook } from '@testing-library/react';

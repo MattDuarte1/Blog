@@ -15,7 +15,7 @@ const PostCard = forwardRef<HTMLElement, PostCardProps>(
   ({ title, authorCompact, image, createdAt, id, onClick, ...props }, ref) => {
     const newFormatDataBR = new Date(createdAt).toLocaleDateString();
     const { isPreview } = useRouter();
-    const isPreviewMod = isPreview ? 'page-views-preview' : 'page-views';
+    const isPreviewMod = isPreview ? 'page-views-preview' : 'views';
     const { data: viewsData } = useFetch(`/api/${isPreviewMod}?id=${title}`);
 
     return (

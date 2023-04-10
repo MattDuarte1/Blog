@@ -61,12 +61,12 @@ const ViewBox = styled.div`
   `}
 `;
 
-type PostPageProps = {
+type PostTemplateProps = {
   views: string;
   dataFormat: string;
 } & IPost;
 
-export const PostPage = ({
+const PostTemplate = ({
   metaContent,
   image,
   title,
@@ -75,7 +75,7 @@ export const PostPage = ({
   content,
   dataFormat,
   views,
-}: PostPageProps) => {
+}: PostTemplateProps) => {
   return (
     <>
       <HeadComponent>{renderMetaTags(metaContent)}</HeadComponent>
@@ -93,3 +93,5 @@ export const PostPage = ({
     </>
   );
 };
+
+export default PostTemplate;

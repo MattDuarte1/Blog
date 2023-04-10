@@ -1,6 +1,6 @@
 import { renderTheme } from '../../styles/render-theme';
 import { useSession } from 'next-auth/react';
-import { PostPage } from '.';
+import PostTemplate from '.';
 import MockData from './mock';
 import { act, screen } from '@testing-library/react';
 
@@ -16,7 +16,7 @@ describe('<HomeTemplate>', () => {
     let container: HTMLElement;
     await act(async () => {
       const result = renderTheme(
-        <PostPage {...MockData} views="28" dataFormat="06/04/2023" />,
+        <PostTemplate {...MockData} views="28" dataFormat="06/04/2023" />,
       );
 
       container = result.container;
@@ -39,7 +39,7 @@ describe('<HomeTemplate>', () => {
     let container: HTMLElement;
     await act(async () => {
       const result = renderTheme(
-        <PostPage {...MockData} views="28" dataFormat="06/04/2023" />,
+        <PostTemplate {...MockData} views="28" dataFormat="06/04/2023" />,
       );
 
       container = result.container;
