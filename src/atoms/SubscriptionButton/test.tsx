@@ -28,7 +28,9 @@ describe('<SubscriptionButton>', () => {
 
     expect(subscriptionButton).toBeInTheDocument();
     expect(
-      getComputedStyle(subscriptionButton.querySelector('h1')).fontSize,
+      getComputedStyle(
+        subscriptionButton.querySelector('h1') as HTMLHeadingElement,
+      ).fontSize,
     ).toBe(theme.font.sizes.xsmall);
   });
 
@@ -45,7 +47,9 @@ describe('<SubscriptionButton>', () => {
     expect(subscriptionButton).toBeInTheDocument();
 
     expect(
-      getComputedStyle(subscriptionButton.querySelector('h1')).fontSize,
+      getComputedStyle(
+        subscriptionButton.querySelector('h1') as HTMLHeadingElement,
+      ).fontSize,
     ).toBe(theme.font.sizes.xsmall);
   });
 

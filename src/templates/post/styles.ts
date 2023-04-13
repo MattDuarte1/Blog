@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
-export const ArtigoHeader = styled.section<{ url: string }>`
+export const ArtigoHeader = styled.section<{ url?: string }>`
   ${({ theme, url }) => css`
     background-image: url(${url});
     background-size: cover;

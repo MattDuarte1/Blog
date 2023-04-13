@@ -1,4 +1,6 @@
-export default {
+import { InitialDataProps } from '@/interfaces/Home';
+
+const MockData: InitialDataProps = {
   seo: {
     title: 'Blogzin by Mateus Duarte',
     description: 'Projeto desenvolvido para comprovar conhecimento',
@@ -57,6 +59,9 @@ export default {
   ],
   postSection: [
     {
+      content: '',
+      description: '',
+      metaContent: [],
       id: '92632737',
       title: 'Você conhece Typescript ?',
       createdAt: '2023-02-03T06:06:20+00:00',
@@ -65,16 +70,18 @@ export default {
       },
       authorCompact: {
         name: 'Mateus Duarte',
-        createdAt: '2023-01-12T06:37:19+00:00',
         image: {
           url: 'https://www.datocms-assets.com/90479/1673505399-67812250_126640048653747_8066872119595701241_n.jpg',
           alt: 'author image',
-          title: 'Avatar',
         },
       },
-      category: [{ title: 'javascript' }],
+
+      /*   categorySection: [{ title: 'javascript' }], */
     },
     {
+      content: '',
+      description: '',
+      metaContent: [],
       id: '92631209',
       title: 'VOCÊ CONHECE JAVASCRIPT ?',
       createdAt: '2023-02-03T06:02:28+00:00',
@@ -83,16 +90,18 @@ export default {
       },
       authorCompact: {
         name: 'Mateus Duarte',
-        createdAt: '2023-01-12T06:37:19+00:00',
+
         image: {
           url: 'https://www.datocms-assets.com/90479/1673505399-67812250_126640048653747_8066872119595701241_n.jpg',
           alt: 'author image',
-          title: 'Avatar',
         },
       },
       category: [{ title: 'javascript' }],
     },
     {
+      content: '',
+      description: '',
+      metaContent: [],
       id: '95380505',
       title: 'Como usar Array no Javascript',
       createdAt: '2023-02-03T15:39:27+00:00',
@@ -101,16 +110,17 @@ export default {
       },
       authorCompact: {
         name: 'Mateus Duarte',
-        createdAt: '2023-01-12T06:37:19+00:00',
         image: {
           url: 'https://www.datocms-assets.com/90479/1673505399-67812250_126640048653747_8066872119595701241_n.jpg',
           alt: 'author image',
-          title: 'Avatar',
         },
       },
       category: [{ title: 'javascript' }],
     },
     {
+      content: '',
+      description: '',
+      metaContent: [],
       id: '95380585',
       title: 'O que é Tailwind Css ?',
       createdAt: '2023-02-03T15:41:53+00:00',
@@ -119,16 +129,17 @@ export default {
       },
       authorCompact: {
         name: 'Mateus Duarte',
-        createdAt: '2023-01-12T06:37:19+00:00',
         image: {
           url: 'https://www.datocms-assets.com/90479/1673505399-67812250_126640048653747_8066872119595701241_n.jpg',
           alt: 'author image',
-          title: 'Avatar',
         },
       },
       category: [{ title: 'tailwind' }],
     },
     {
+      content: '',
+      description: '',
+      metaContent: [],
       id: '95380702',
       title: 'React Hooks: o que é e como funciona ?',
       createdAt: '2023-02-03T15:46:51+00:00',
@@ -137,17 +148,18 @@ export default {
       },
       authorCompact: {
         name: 'Mateus Duarte',
-        createdAt: '2023-01-12T06:37:19+00:00',
         image: {
           url: 'https://www.datocms-assets.com/90479/1673505399-67812250_126640048653747_8066872119595701241_n.jpg',
           alt: 'author image',
-          title: 'Avatar',
         },
       },
       category: [{ title: 'react' }],
     },
     {
       id: '95380751',
+      content: '',
+      description: '',
+      metaContent: [],
       title: 'Vue JS: O que é, como funciona ?',
       createdAt: '2023-02-03T15:48:45+00:00',
       image: {
@@ -155,27 +167,26 @@ export default {
       },
       authorCompact: {
         name: 'Mateus Duarte',
-        createdAt: '2023-01-12T06:37:19+00:00',
         image: {
           url: 'https://www.datocms-assets.com/90479/1673505399-67812250_126640048653747_8066872119595701241_n.jpg',
           alt: 'author image',
-          title: 'Avatar',
         },
       },
       category: [{ title: 'vuejs' }],
     },
     {
+      content: '',
+      description: '',
+      metaContent: [],
       id: '92697360',
       title: 'o que é CSS3?',
       createdAt: '2023-02-03T09:07:58+00:00',
       image: { url: 'https://www.datocms-assets.com/90479/1674241439-css.svg' },
       authorCompact: {
         name: 'Mateus Duarte',
-        createdAt: '2023-01-12T06:37:19+00:00',
         image: {
           url: 'https://www.datocms-assets.com/90479/1673505399-67812250_126640048653747_8066872119595701241_n.jpg',
           alt: 'author image',
-          title: 'Avatar',
         },
       },
       category: [{ title: 'css' }],
@@ -190,3 +201,5 @@ export default {
     description: 'Inscreva-se para receber novidades da semana',
   },
 };
+
+export default MockData;

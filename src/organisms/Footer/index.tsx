@@ -10,7 +10,7 @@ const Footer = forwardRef<HTMLDivElement>(() => {
     <Styled.Container id="footer">
       <Styled.Content>
         <Logo />
-        <Heading as="h6" size="xsmall">
+        <Heading color="black" as="h6" size="xsmall">
           Criado por Mateus Duarte
         </Heading>
         <Styled.SocialMediaContent>
@@ -32,7 +32,9 @@ const Footer = forwardRef<HTMLDivElement>(() => {
         <AnchorLink
           href={'/api/preview?pass=9214984e8f485ds4f8ds4f8438r4w98f4s6d541c'}
         >
-          <Heading size="xsmall">Ativar/Desativar Modo Real-Time</Heading>
+          <Heading color="black" size="xsmall">
+            Ativar/Desativar Modo Real-Time
+          </Heading>
         </AnchorLink>
       </Styled.Content>
     </Styled.Container>

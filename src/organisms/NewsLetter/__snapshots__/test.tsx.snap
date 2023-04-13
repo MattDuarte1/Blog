@@ -158,6 +158,7 @@ exports[`<Newsletter> Should match snapshot component 1`] = `
     />
     <h1
       class="c2"
+      color="black"
     >
       Inscreva-se para receber novidades
     </h1>

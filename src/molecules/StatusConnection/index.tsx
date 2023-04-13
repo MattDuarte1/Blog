@@ -11,7 +11,7 @@ interface IError {
 type StatusConnectionProps = {
   message: string;
   status: string;
-  error: IError;
+  error?: IError | null;
 };
 
 const StatusConnection = forwardRef<HTMLDivElement, StatusConnectionProps>(

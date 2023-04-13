@@ -30,7 +30,7 @@ exports[`<SubscriptionButton> Should match snapshot SubscriptionButton when the 
   text-transform: capitalize;
   font-size: 1.617rem;
   text-transform: none;
-  color: #2B2C34;
+  color: #FFFFFE;
 }
 
 <button
@@ -53,6 +53,7 @@ exports[`<SubscriptionButton> Should match snapshot SubscriptionButton when the 
   </svg>
   <h1
     class="c1"
+    color="white"
   >
     mateus
   </h1>
@@ -107,7 +108,7 @@ exports[`<SubscriptionButton> Should match snapshot SubscriptionButton when the 
   text-transform: capitalize;
   font-size: 1.617rem;
   text-transform: none;
-  color: #2B2C34;
+  color: #FFFFFE;
 }
 
 <button
@@ -128,6 +129,7 @@ exports[`<SubscriptionButton> Should match snapshot SubscriptionButton when the 
   </svg>
   <h1
     class="c1"
+    color="white"
   >
     Conectar com Github
   </h1>

@@ -2,28 +2,30 @@ import Posts from '.';
 import { renderTheme } from '@/styles/render-theme';
 import PostsMocked from './mock';
 import mockRouter from 'next-router-mock';
-import { act, fireEvent, screen } from '@testing-library/react';
+import { act, fireEvent, screen, waitFor } from '@testing-library/react';
 import { theme } from '@/styles/theme';
 
 jest.mock('next/router', () => require('next-router-mock'));
 
 describe('<PostSection>', () => {
   it('Should render a Posts component', async () => {
-    let container;
+    let container: HTMLElement;
     await act(async () => {
-      const result = renderTheme(<Posts data={PostsMocked} />);
+      const result = renderTheme(<Posts data={PostsMocked} ref={null} />);
 
       container = result.container;
     });
 
-    expect(container.firstElementChild).toBeInTheDocument();
-    expect(container.firstElementChild).toHaveAttribute('id', 'posts');
-    expect(container.firstElementChild).toHaveStyle({
-      padding: '4.4rem',
-      'background-color': theme.colors.white,
-    });
-    expect(container.firstElementChild).toHaveStyleRule('padding', '3.5rem', {
-      media: theme.media.lteSmall,
+    waitFor(() => {
+      expect(container.firstElementChild).toBeInTheDocument();
+      expect(container.firstElementChild).toHaveAttribute('id', 'posts');
+      expect(container.firstElementChild).toHaveStyle({
+        padding: '4.4rem',
+        'background-color': theme.colors.white,
+      });
+      expect(container.firstElementChild).toHaveStyleRule('padding', '3.5rem', {
+        media: theme.media.lteSmall,
+      });
     });
   });
 
@@ -41,13 +43,13 @@ describe('<PostSection>', () => {
   });
 
   it('Should match snapshot component', async () => {
-    let container;
+    let container: HTMLElement;
     await act(async () => {
       const result = renderTheme(<Posts data={PostsMocked} />);
 
       container = result.container;
     });
 
-    expect(container.firstElementChild).toMatchSnapshot();
+    waitFor(() => expect(container.firstElementChild).toMatchSnapshot());
   });
 });

@@ -78,7 +78,7 @@ exports[`<Header /> Should match snapshot component 1`] = `
   text-transform: capitalize;
   font-size: 1.617rem;
   text-transform: none;
-  color: #2B2C34;
+  color: #FFFFFE;
 }
 
 .c2 {
@@ -249,6 +249,7 @@ exports[`<Header /> Should match snapshot component 1`] = `
         </svg>
         <h1
           class="c5"
+          color="white"
         >
           Conectar com Github
         </h1>

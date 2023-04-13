@@ -19,7 +19,7 @@ export const blogContextReducer = (
         ...state,
         categorySelected:
           state.categorySelected === action.payload.categorySelected
-            ? null
+            ? undefined
             : action.payload.categorySelected,
       };
     default:

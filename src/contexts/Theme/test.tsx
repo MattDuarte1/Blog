@@ -33,7 +33,7 @@ describe('blogContextProvider', () => {
     expect(result.current.state.categorySelected).toEqual('javascript');
   });
 
-  it('should update categorySelected to null when is the same as passed in parameter of changeCategory', () => {
+  it('should update categorySelected to undefined when is the same as passed in parameter of changeCategory', () => {
     const { result } = renderHook(() => useBlogContext(), {
       wrapper: ThemeProvider,
     });
@@ -44,7 +44,7 @@ describe('blogContextProvider', () => {
       changeCategory('typescript');
     });
 
-    expect(result.current.state.categorySelected).toEqual(null);
+    expect(result.current.state.categorySelected).toEqual(undefined);
   });
 
   it('should update the theme when changeTheme is called and mode param is not passed', () => {
@@ -54,7 +54,7 @@ describe('blogContextProvider', () => {
     const { changeTheme } = result.current;
 
     act(() => {
-      changeTheme(undefined);
+      changeTheme('');
     });
 
     expect(result.current.state.theme.name).toEqual('inverted');
@@ -90,7 +90,7 @@ describe('blogContextProvider', () => {
     const initialState: InitialStateType = {
       theme: theme,
       drawerIsOpen: false,
-      categorySelected: null,
+      categorySelected: undefined,
     };
     const unknownAction = { type: 'UNKNOW' };
     expect(() =>

@@ -7,9 +7,9 @@ describe('<CategoryCard />', () => {
   const handleSelectCategory = jest.fn();
   const Mockprops: CategoryCardProps = {
     id: '1',
-    title: undefined,
+    title: 'javascript',
     onClick: handleSelectCategory,
-    categorySelected: null,
+    categorySelected: undefined,
     image: {
       url: 'www.google.com',
       alt: 'javascript',

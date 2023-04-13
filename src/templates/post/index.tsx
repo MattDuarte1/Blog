@@ -22,9 +22,9 @@ const PostTemplate = ({
   views,
 }: PostTemplateProps) => {
   return (
-    <>
+    <div>
       <HeadComponent>{renderMetaTags(metaContent)}</HeadComponent>
-      <S.ArtigoHeader url={image.url}>
+      <S.ArtigoHeader url={image?.url}>
         <Heading size="large">{title}</Heading>
         <span>{description}</span>
         <span style={{ fontWeight: '700' }}>
@@ -35,7 +35,7 @@ const PostTemplate = ({
         </S.ViewBox>
       </S.ArtigoHeader>
       <HtmlContent html={content} />
-    </>
+    </div>
   );
 };
 

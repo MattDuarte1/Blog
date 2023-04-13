@@ -6,7 +6,7 @@ import * as Styled from './styles';
 import { forwardRef } from 'react';
 
 interface PostSectionProps {
-  data: IPost[];
+  data?: IPost[];
 }
 
 const Posts = forwardRef<HTMLDivElement, PostSectionProps>(
@@ -16,11 +16,14 @@ const Posts = forwardRef<HTMLDivElement, PostSectionProps>(
       e.preventDefault();
       router.push({ pathname: `/post/${e.currentTarget.id}` });
     };
+
     return (
       <Styled.Container id="posts" ref={ref} {...props}>
-        <Heading size="large">Todos os Posts</Heading>
+        <Heading color="black" size="large">
+          Todos os Posts
+        </Heading>
         <Styled.Content>
-          {data.map((item) => (
+          {data?.map((item) => (
             <PostCard key={item.id} {...item} onClick={handleClick} />
           ))}
         </Styled.Content>

@@ -22,15 +22,15 @@ const mockFetch = fetch as jest.MockedFunction<typeof fetch>;
 describe('<Newsletter>', () => {
   it('Should render a Newsletter', () => {
     const { rerender, container } = renderTheme(<Newsletter data={mock} />);
-    const newsLetter = container.firstElementChild;
+    const newsLetter = container.firstElementChild as Element;
 
     expect(newsLetter).toBeInTheDocument();
     expect(newsLetter).toHaveStyle({
       'background-color': theme.colors.lightGrey2,
     });
-    expect(newsLetter.querySelector('h1').innerHTML).toBe(mock.title);
-    expect(newsLetter.querySelector('span').innerHTML).toBe(mock.description);
-    expect(newsLetter.querySelector('img')).toHaveAttribute(
+    expect(newsLetter?.querySelector('h1')?.innerHTML).toBe(mock.title);
+    expect(newsLetter?.querySelector('span')?.innerHTML).toBe(mock.description);
+    expect(newsLetter?.querySelector('img')).toHaveAttribute(
       'alt',
       mock.image.alt,
     );
@@ -68,7 +68,7 @@ describe('<Newsletter>', () => {
       </>,
     );
 
-    const input = container.querySelector('input');
+    const input = container.querySelector('input') as HTMLInputElement;
 
     fireEvent.click(screen.getByRole('button', { name: /clique aqui/i }));
     await waitFor(
@@ -101,7 +101,7 @@ describe('<Newsletter>', () => {
         <Newsletter data={mock} />,
       </>,
     );
-    const input = container.querySelector('input');
+    const input = container.querySelector('input') as HTMLInputElement;
 
     input.value = 'test@gmail.com';
     fireEvent.click(screen.getByRole('button', { name: /clique aqui/i }));
@@ -120,7 +120,7 @@ describe('<Newsletter>', () => {
         <Newsletter data={mock} />,
       </>,
     );
-    const input = container.querySelector('input');
+    const input = container.querySelector('input') as HTMLInputElement;
 
     input.value = 'test@gmail.com';
     fireEvent.click(screen.getByRole('button', { name: /clique aqui/i }));

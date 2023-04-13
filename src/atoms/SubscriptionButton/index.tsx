@@ -19,7 +19,7 @@ const SubscriptionButton = forwardRef<
     return (
       <Styled.Container ref={ref} {...props}>
         <FaGithubAlt color="green" size={30} />
-        <Heading size="xsmall">{session.user.name}</Heading>
+        <Heading size="xsmall">{session?.user?.name}</Heading>
         <MdClose data-testid="LogoutIcon" size={30} onClick={onUnSubscribe} />
       </Styled.Container>
     );

@@ -1,4 +1,4 @@
-import type { GetStaticProps, NextPage } from 'next';
+import type { GetStaticProps } from 'next';
 import { useState, useEffect } from 'react';
 import { GRAPHQL_QUERY_HOME } from '../graphql/queries';
 import { request } from '../lib/datocms';
@@ -33,24 +33,24 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
   };
 };
 
-const Home: NextPage = ({ subscription }: IHome) => {
+const Home = ({ subscription }: IHome) => {
   const { data, error, status } = useQuerySubscription(subscription);
-  const [postData, setPostData] = useState(data.homePage.postSection);
+  const [postData, setPostData] = useState(data?.homePage.postSection);
   const {
     state: { categorySelected },
   } = useBlogContext();
 
   useEffect(() => {
-    const categoryPostsFiltered = data.homePage.postSection.filter((item) =>
-      item.category.find((item) => item.title === categorySelected),
+    const categoryPostsFiltered = data?.homePage.postSection.filter((item) =>
+      item.category?.find((item) => item.title === categorySelected),
     );
     const categoryNameNotIsNull =
-      categorySelected !== null
+      categorySelected !== undefined
         ? setPostData(categoryPostsFiltered)
-        : setPostData(data.homePage.postSection);
+        : setPostData(data?.homePage.postSection);
 
-    return categoryNameNotIsNull;
-  }, [categorySelected, data.homePage.postSection]);
+    categoryNameNotIsNull;
+  }, [categorySelected, data?.homePage.postSection, data]);
 
   const statusMessage = {
     connecting: 'Conectando com o DatoCMS...',
@@ -60,7 +60,7 @@ const Home: NextPage = ({ subscription }: IHome) => {
 
   return (
     <HomeTemplate
-      data={data.homePage}
+      data={data?.homePage}
       postData={postData}
       status={status}
       statusMessage={statusMessage[status]}

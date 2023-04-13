@@ -24,10 +24,17 @@ export const Container = styled.div`
 `;
 
 interface IBall {
-  status?: string;
+  status: string;
 }
 
-const ballColor = {
+type BallColorProps = {
+  connecting: string;
+  connected: string;
+  closed: string;
+  [key: string]: string;
+};
+
+const ballColor: BallColorProps = {
   connecting: '#F1C40F',
   connected: '#1efc1e',
   closed: '#BA1200',

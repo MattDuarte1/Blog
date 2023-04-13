@@ -1,17 +1,14 @@
-import { forwardRef, MutableRefObject } from 'react';
+import { forwardRef } from 'react';
 import * as Styled from './styles';
 import { Icategory } from '@/interfaces/Category';
 
 export interface CategoryCardProps extends Icategory {
   onClick: () => void;
-  categorySelected: string;
+  categorySelected?: string;
 }
 
 const CategoryCard = forwardRef<HTMLElement, CategoryCardProps>(
-  (
-    { title = 'javascript', id, image, onClick, categorySelected, ...props },
-    ref: MutableRefObject<HTMLElement>,
-  ) => {
+  ({ title, id, image, onClick, categorySelected, ...props }, ref) => {
     return (
       <Styled.Container
         onClick={onClick}

@@ -126,7 +126,7 @@ exports[`<Categories /> Should match snapshot categories component 1`] = `
       class="c2"
       color="black"
     >
-      Categorias - 
+      Categorias
     </h1>
   </div>
   <section

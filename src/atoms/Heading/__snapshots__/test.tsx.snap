@@ -9,11 +9,12 @@ exports[`<Heading> Should match snapshot component 1`] = `
   text-transform: capitalize;
   font-size: 10.06rem;
   text-transform: none;
-  color: #2B2C34;
+  color: #FFFFFE;
 }
 
 <h1
   class="c0"
+  color="white"
 >
   menu
 </h1>

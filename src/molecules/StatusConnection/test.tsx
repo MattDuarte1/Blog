@@ -22,7 +22,7 @@ describe('<StatusConnection>', () => {
     expect(container.querySelector('span')).toHaveStyle(
       `background-color: #BA1200`,
     );
-    expect(container.querySelector('p').innerHTML).toBe(statusMessage.closed);
+    expect(container.querySelector('p')?.innerHTML).toBe(statusMessage.closed);
   });
 
   it('Should render StatusConnection Component when status connecting', () => {
@@ -36,7 +36,7 @@ describe('<StatusConnection>', () => {
     expect(container.querySelector('span')).toHaveStyle(
       `background-color: #F1C40F`,
     );
-    expect(container.querySelector('p').innerHTML).toBe(newMock.message);
+    expect(container.querySelector('p')?.innerHTML).toBe(newMock.message);
   });
 
   it('Should render StatusConnection Component when status connected', () => {
@@ -50,7 +50,7 @@ describe('<StatusConnection>', () => {
     expect(container.querySelector('span')).toHaveStyle(
       `background-color: #1efc1e`,
     );
-    expect(container.querySelector('p').innerHTML).toBe(newMock2.message);
+    expect(container.querySelector('p')?.innerHTML).toBe(newMock2.message);
   });
 
   it('Should render StatusConnection Component Error', () => {

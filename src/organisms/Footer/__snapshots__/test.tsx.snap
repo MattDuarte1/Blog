@@ -129,6 +129,7 @@ exports[`<Footer> Should match snapshot footer component 1`] = `
     </div>
     <h6
       class="c3"
+      color="black"
     >
       Criado por Mateus Duarte
     </h6>
@@ -195,6 +196,7 @@ exports[`<Footer> Should match snapshot footer component 1`] = `
     >
       <h1
         class="c3"
+        color="black"
       >
         Ativar/Desativar Modo Real-Time
       </h1>

@@ -27,7 +27,14 @@ export type HeadingProps = {
 
 const Heading = forwardRef<HTMLHeadingElement, HeadingProps>(
   (
-    { children, size = 'huge', as = 'h1', color, uppercase = false, ...props },
+    {
+      children,
+      size = 'huge',
+      as = 'h1',
+      color = 'white',
+      uppercase = false,
+      ...props
+    },
     ref,
   ) => {
     return (

@@ -8,21 +8,21 @@ export type ThemeProviderProps = {
 
 export type ThemeContextValues = {
   state: {
-    drawerIsOpen?: boolean;
-    theme?: DefaultTheme;
-    categorySelected?: string;
+    drawerIsOpen: boolean;
+    theme: DefaultTheme;
+    categorySelected: string | undefined;
   };
-  changeTheme?: (mode: string) => void;
-  activeDrawer?: () => void;
-  changeCategory?: (category: string) => void;
+  changeTheme: (mode: string) => void;
+  activeDrawer: () => void;
+  changeCategory: (category: string) => void;
 };
 
 export interface IAction {
   type: Actions;
-  payload?: {
-    theme?: Theme;
+  payload: {
+    theme: Theme;
     nameTheme?: string;
     drawerIsOpen?: boolean;
-    categorySelected?: string;
+    categorySelected?: string | undefined;
   };
 }

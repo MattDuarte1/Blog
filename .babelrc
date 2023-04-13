@@ -1,8 +1,8 @@
 {
-  "presets": ["next/babel"],
+  "presets": ["next/babel", "@babel/preset-typescript"],
   "plugins": [
     [
-      "styled-components",
+      "babel-plugin-styled-components",
       {
         "ssr": true,
         "displayName": true
@@ -13,7 +13,7 @@
     "test": {
       "plugins": [
         [
-          "styled-components",
+          "babel-plugin-styled-components",
           {
             "ssr": false,
             "displayName": false

@@ -21,8 +21,8 @@ const PostCard = forwardRef<HTMLElement, PostCardProps>(
     return (
       <Styled.Container onClick={onClick} id={id} ref={ref} {...props}>
         <Image
-          src={image.url}
-          alt={image.alt ? image.alt : 'image alt'}
+          src={image?.url as string}
+          alt={image?.alt ? image.alt : 'image alt'}
           width={260}
           height={198}
         />

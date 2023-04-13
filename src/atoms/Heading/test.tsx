@@ -9,19 +9,17 @@ describe('<Heading>', () => {
     const { container } = renderTheme(<Heading>menu</Heading>);
     const heading = container.querySelector('h1');
 
-    expect(heading.tagName.toLowerCase()).toBe('h1');
-    expect(heading).toHaveStyle({
-      'font-size': theme.font.sizes.huge,
-      color: theme.colors.black,
-      'text-transform': 'none',
-    });
+    expect(heading?.tagName.toLowerCase()).toBe('h1');
+    expect(heading).toHaveStyleRule('font-size', theme.font.sizes.huge);
+    expect(heading).toHaveStyleRule('color', theme.colors.white);
+    expect(heading).toHaveStyleRule('text-transform', 'none');
   });
 
   it('Should render with others color', () => {
-    const { rerender } = renderTheme(<Heading color="white">menu</Heading>);
+    const { rerender } = renderTheme(<Heading color="black">menu</Heading>);
     const heading = screen.getByRole('heading', { name: 'menu' });
 
-    expect(heading).toHaveStyle(`color: ${theme.colors.white}`);
+    expect(heading).toHaveStyle(`color: ${theme.colors.black}`);
 
     rerender(
       <ThemeProvider theme={theme}>
@@ -77,8 +75,9 @@ describe('<Heading>', () => {
   it('Should render a Heading with UpperCase Letter', () => {
     renderTheme(<Heading uppercase>menu</Heading>);
 
-    expect(screen.getByRole('heading', { name: 'menu' })).toHaveStyle(
-      `text-transform: uppercase`,
+    expect(screen.getByRole('heading', { name: 'menu' })).toHaveStyleRule(
+      'text-transform',
+      'uppercase',
     );
   });
 

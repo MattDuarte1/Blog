@@ -4,6 +4,7 @@ module.exports = {
     '\\.(css|less|scss)$': 'identity-obj-proxy',
     '^@/(.*)$': '<rootDir>/src/$1',
   },
+  testPathIgnorePatterns: ['/node_modules/', '/.next/'],
   coverageDirectory: 'coverage',
   collectCoverage: true,
   collectCoverageFrom: [
@@ -28,7 +29,6 @@ module.exports = {
   ],
   testEnvironment: 'jsdom',
   testMatch: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[tj]s?(x)'],
-  testPathIgnorePatterns: ['/node_modules/', '/.next/', '/.out/', '/public/'],
-
-  setupFilesAfterEnv: ['<rootDir>/.jest/setup-tests.js'],
+  setupFilesAfterEnv: ['<rootDir>/.jest/setup.ts'],
+  modulePaths: ['<rootDir>/src/', '<rootDir>/.jest'],
 };

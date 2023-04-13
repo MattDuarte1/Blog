@@ -56,7 +56,7 @@ exports[`<NavBar /> Should match snapshot the user is Logged 1`] = `
   text-transform: capitalize;
   font-size: 1.617rem;
   text-transform: none;
-  color: #2B2C34;
+  color: #FFFFFE;
 }
 
 .c0 {
@@ -138,6 +138,7 @@ exports[`<NavBar /> Should match snapshot the user is Logged 1`] = `
     </svg>
     <h1
       class="c3"
+      color="white"
     >
       username
     </h1>
@@ -219,7 +220,7 @@ exports[`<NavBar /> Should match snapshot the user not Logged 1`] = `
   text-transform: capitalize;
   font-size: 1.617rem;
   text-transform: none;
-  color: #2B2C34;
+  color: #FFFFFE;
 }
 
 .c0 {
@@ -299,6 +300,7 @@ exports[`<NavBar /> Should match snapshot the user not Logged 1`] = `
     </svg>
     <h1
       class="c3"
+      color="white"
     >
       Conectar com Github
     </h1>

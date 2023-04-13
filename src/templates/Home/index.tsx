@@ -9,11 +9,11 @@ import { IPost } from '@/interfaces/Post';
 import { HTMLAttributes, forwardRef } from 'react';
 
 type HomeTemplateProps = {
-  data: InitialDataProps;
-  error: IError;
+  data?: InitialDataProps;
+  error?: IError | null;
   status: string;
   statusMessage: string;
-  postData: IPost[];
+  postData?: IPost[];
 };
 
 const HomeTemplate = forwardRef<
@@ -23,14 +23,14 @@ const HomeTemplate = forwardRef<
   return (
     <main ref={ref} {...props}>
       <HeadComponent
-        title={data.seo.title}
-        description={data.seo.description}
+        title={data?.seo.title}
+        description={data?.seo.description}
       />
-      <Hero data={data.heroSection} />
-      <Categories data={data.categorySection} />
+      <Hero data={data?.heroSection} />
+      <Categories data={data?.categorySection} />
       <StatusConnection error={error} status={status} message={statusMessage} />
       <PostSection data={postData} />
-      <NewsLetter data={data.subscribeSection} />
+      <NewsLetter data={data?.subscribeSection} />
     </main>
   );
 });

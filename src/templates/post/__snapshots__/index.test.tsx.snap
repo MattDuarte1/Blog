@@ -1,0 +1,460 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeTemplate> Should match snapshot PostTemplate 1`] = `
+.c1 {
+  font-family: 'Plus Jakarta Sans','sans-serif';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: capitalize;
+  font-size: 3.576rem;
+  text-transform: none;
+  color: #FFFFFE;
+}
+
+.c3 {
+  background-color: #FFFFFE;
+  font-size: calc(2.156rem + 0.2rem);
+  padding: 10rem;
+  max-width: 100%;
+  line-height: 1.5;
+}
+
+.c3 iframe {
+  width: 500px;
+}
+
+.c3 button {
+  background-color: #E4E5E9;
+  padding: 1.617rem;
+  cursor: pointer;
+  border: none;
+}
+
+.c3 p {
+  margin: 2.4rem 0;
+}
+
+.c3 a,
+.c3 a:visited,
+.c3 a:link {
+  color: #C0C0C0;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c3 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.c3 code {
+  font-family: monospace;
+  color: #2B2C34;
+  font-size: 1.617rem;
+  background: #9A9494;
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
+.c3 pre {
+  background: #9A9494;
+  padding: 2.4rem;
+  font-family: monospace;
+  color: #2B2C34;
+  margin: 2.4rem 0;
+  width: 100%;
+  overflow-x: auto;
+  font-size: 2.156rem;
+}
+
+.c3 pre code {
+  color: inherit;
+  background: inherit;
+}
+
+.c3 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.c3 hr {
+  border: none;
+  border-bottom: 0.1rem solid #EFF0F3;
+}
+
+.c3 ul,
+.c3 ol {
+  margin: 2.4rem 4.8rem;
+}
+
+.c3 .table {
+  width: 100%;
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.c3 table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 2.4rem 0;
+  background-color: #9A9494;
+}
+
+.c3 table td,
+.c3 table th {
+  padding: 1.617rem;
+  border: 0.1rem solid #EFF0F3;
+}
+
+.c3 blockquote {
+  border-left: 0.5rem solid #EFF0F3;
+  color: #9A9494;
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+  padding-left: 2.4rem;
+  font-style: italic;
+  margin: 2.4rem;
+}
+
+.c0 {
+  background-image: url(https://www.datocms-assets.com/90479/1674241447-javascript1.svg);
+  background-size: cover;
+  background-color: #FFFFFE;
+  min-height: 540px;
+  box-shadow: inset 0 0 0 100vw rgb(0 0 0 / 65%);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.c0 h1,
+.c0 span {
+  color: #fff;
+}
+
+.c2 {
+  position: relative;
+}
+
+.c2 > svg {
+  color: #fff;
+  font-size: 4.8rem;
+}
+
+.c2::before {
+  content: attr(data-views);
+  position: absolute;
+  overflow: hidden;
+  top: -1rem;
+  right: -2rem;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: white;
+  background-color: #6246EA;
+  border-top-left-radius: 0.7rem;
+  border-top-right-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
+  height: 2.5rem;
+  width: 4rem;
+}
+
+@media (max-width:400px) {
+  .c1 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width:700px) {
+  .c3 {
+    font-size: 2rem;
+    padding: 3rem;
+  }
+
+  .c3 iframe {
+    width: 100%;
+  }
+}
+
+<div>
+  <div>
+    <section
+      class="c0"
+    >
+      <h1
+        class="c1"
+        color="white"
+      >
+        VOCÊ CONHECE JAVASCRIPT ?
+      </h1>
+      <span>
+        JAVASCRIPT: O QUE É, PARA QUE SERVE E COMO USAR ?
+      </span>
+      <span
+        style="font-weight: 700;"
+      >
+        Criado por 
+        Mateus Duarte
+         - 
+        06/04/2023
+      </span>
+      <div
+        class="c2"
+        data-views="28"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 1024 1024"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z"
+          />
+        </svg>
+      </div>
+    </section>
+    <div
+      class="c3"
+    >
+      <p>
+        Se você deseja se tornar um desenvolvedor web para poder desenvolver páginas completas, com layouts elegantes e conteúdo dinâmico, você precisa conhecer o JavaScript.
+      </p>
+      
+
+      <p>
+        O JavaScript é a terceira etapa para construirmos um site profissional. No post anterior conhecemos as duas primeiras etapas:
+        <span>
+           
+        </span>
+        <a
+          href="https://www.treinaweb.com.br/blog/como-comecar-com-html-e-css/"
+          title="o HTML e o CSS"
+        >
+          o HTML e o CSS
+        </a>
+        , e nesse artigo vamos conhecer sobre como deixar o conteúdo de nossas páginas mais interativo utilizando o JavaScript.
+      </p>
+      
+
+      <h2>
+        O que é JavaScript?
+      </h2>
+      
+
+      <p>
+        Antes de começarmos a abordar o que vem a ser o JavaScript, é muito importante ressaltar que JavaScript não tem nada a ver com Java.
+      </p>
+      
+
+      <p>
+        Quando essa linguagem foi lançada, ela tinha o nome oficial de LiveScript, criada pela Netscape. Como nessa época o Java estava conquistando cada vez mais o mercado, a Netscape quis aproveitar a popularidade do recém-lançado Java, através de um acordo com a Sun, mudando então seu nome para JavaScript.
+      </p>
+      
+
+      <p>
+        Essa mudança ainda causa confusão dando a impressão de que a linguagem foi baseada em Java, mas não… foi tudo uma estratégia de marketing. Agora sim, podemos conhecer o que realmente vem a ser o JavaScript.
+      </p>
+      
+
+      <p>
+        O JavaScript é uma linguagem de programação interpretada, sendo a principal linguagem cliente-servidor em navegadores web. Ela é responsável pelo dinamismo de uma página, ou seja, promover a interação com o usuário, sendo executados do lado do cliente. É uma linguagem script com orientação a objetos dinâmica e com tipagem fraca.
+      </p>
+      
+
+      <p>
+        Existem três camadas básicas no desenvolvimento web: o HTML e o CSS (como vimos no post anterior) e por fim a terceira camada que é o JavaScript, que como vimos acima, fica com a parte de comportamento da página.
+      </p>
+      
+
+      <h2>
+        Quem usa JavaScript?
+      </h2>
+      
+
+      <p>
+        Várias empresas e sites conhecidos utilizam JavaScript na parte de front-end, desde aplicações mais simples como as mais complexas. Temos como exemplo a Google, Youtube, Facebook, Ebay, Yahoo, Twitter, Linkedin, dentre muitos outros. Quase toda aplicação Web tem a necessidade de usar JavaScript. E, hoje em dia, o JavaScript não se limita apenas à web, ele tem sua vertente server-side, mobile etc.
+      </p>
+      
+
+      <h2>
+        Sintaxe do JavaScript
+      </h2>
+      
+
+      <p>
+        A sintaxe do JavaScript é muito simples. Você pode utilizar o JavaScript dentro do seu código HTML. Para criarmos o nosso clássico “Hello World”, é só colocamos a escrita dentro de um “alert”. Com o alert nosso texto aparecerá dentro de uma janela de alerta.
+      </p>
+      
+
+      <p>
+        <img
+          height="169"
+          src="https://www.datocms-assets.com/90479/1678373667-javascript1.png"
+          width="338"
+        />
+      </p>
+      
+
+      <p>
+        <code
+          class=" language-html"
+        />
+        Realizar uma estrutura de condição no JavaScript também é simples:
+      </p>
+      
+
+      <p>
+        <img
+          height="149"
+          src="https://www.datocms-assets.com/90479/1678373672-javascript2.png"
+          width="358"
+        />
+      </p>
+      
+
+      <p>
+        No JavaScript você também pode definir suas próprias funções. Vamos então escrever uma função que recebe dois números e realiza a operação de multiplicação:
+      </p>
+      
+
+      <p>
+        <img
+          height="179"
+          src="https://www.datocms-assets.com/90479/1678373677-javascript3.png"
+          width="323"
+        />
+      </p>
+      
+
+      <p>
+        Mercado de trabalho
+      </p>
+      
+
+      <p>
+        Como pudemos ver o JavaScript é uma das etapas do desenvolvimento web. Com isso, é obrigatório um desenvolvedor conhecer essa linguagem. Existem várias bibliotecas para se trabalhar com JavaScript, por isso é importante ter conhecimento de algumas delas, pois é muito comum elas serem requisitos para o preenchimento de vagas JavaScript.
+      </p>
+      
+
+      <p>
+        Além da adequação ao mercado de trabalho, conhecer essas bibliotecas garante um aumento de produtividade e facilidade em tarefas comuns do dia a dia.
+      </p>
+      
+
+      <p>
+        Sendo assim, como todos os sites possuem algum tipo de interação utilizando o JavaScript, dificilmente você ficará fora do mercado.
+      </p>
+      
+
+      <h2>
+        Como aprender JavaScript?
+      </h2>
+      
+
+      <p>
+        Aqui no TreinaWeb temos toda uma trilha voltada para o JavaScript. Para você começar nessa linguagem, recomendamos o curso “JavaScript Básico”.
+      </p>
+      
+
+      <p>
+        Com ele, você aprenderá desde os conceitos básicos, fazendo com que você entenda toda a estrutura da linguagem.
+      </p>
+      
+
+      <p>
+        Aliando a teoria com a prática, você também irá desenvolver programas que irão interagir com os elementos de uma página web.
+      </p>
+      
+
+      <h2>
+        Conheça nossa metodologia
+      </h2>
+      
+
+      <p>
+        Nosso ambiente de aprendizagem é 100% online. Nossa metodologia de ensino é baseada em vídeo aulas, apostilas, exercícios aula-a-aula e exemplos completos. Você estuda no seu tempo e ao final pode baixar o seu certificado digital ou solicitar o certificado impresso.
+      </p>
+      
+
+      <p>
+        Na parte escrita, fornecemos um material totalmente atualizado e completo para que você possa usufruir do conteúdo, utilizando-se de textos e imagens. Já as vídeo-aulas são bem explicativas e práticas, abordando todo o conteúdo passo-a-passo, para que você entenda tudo da melhor maneira possível.
+      </p>
+      
+
+      <p>
+        Além disso, você encontrará exercícios para poder fixar, praticar e aplicar todo o conteúdo aprendido. São exercícios que são propostos em cada aula do curso. Eles podem variar entre alguns formatos, como por exemplo questões de escolha única, questões de múltipla escolha e complemento de trechos de código.
+      </p>
+      
+
+      <p>
+        Se ainda assim você tiver alguma dúvida, você poderá pedir ajuda aos nossos professores através de tickets de atendimento. Funciona como um canal direto entre você e o professor, onde você poderá realizar perguntas que serão respondidas muito brevemente!
+      </p>
+      
+
+      <p>
+        Além disso, ainda pelo sistema suporte, você também poderá consultar todas as perguntas que já foram respondidas a outros alunos! =)
+      </p>
+      
+
+      <h2>
+        Quais conhecimentos preciso ter para iniciar este curso?
+      </h2>
+      
+
+      <p>
+        O curso é recomendado para você iniciar seus estudos na linguagem JavaScript, no entanto, é interessante saber as bases necessárias para aprender qualquer linguagem de programação: “Lógica de Programação” e “Lógica de Programação Orientada a Objetos”.
+      </p>
+      
+
+      <h2>
+        Gostou do que viu?
+      </h2>
+      
+
+      <p>
+        Se entusiasmou com o JavaScript? Gostaria de conhecê-lo com mais detalhes? Sim, você pode dar uma espiadinha. Acesse o curso de JavaScript e veja algumas aulas de exemplo. :)
+      </p>
+      
+
+      <p>
+        Bons estudos!
+      </p>
+    </div>
+  </div>
+</div>
+`;

@@ -36,7 +36,7 @@ const BreakPoints = {
   },
 };
 
-const cursorEffect = (theme) => keyframes`
+const cursorEffect = (theme: DefaultTheme) => keyframes`
   0% {
     background-color: ${theme.colors.black};
   }
@@ -57,7 +57,6 @@ export const Container = styled.section`
     flex-wrap: wrap;
     gap: 20px;
 
-    ${BreakPoints.Container['large']}
     ${BreakPoints.Container['medium'](theme)}
   `}
 `;

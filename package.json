@@ -1,5 +1,5 @@
 {
-  "name": "Blog",
+  "name": "blog",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,11 +8,13 @@
     "start": "next start",
     "test": "jest",
     "lint": "eslint src --max-warnings=0",
+    "lint:fix": "eslint src --fix",
     "prepare": "husky install",
     "typecheck": "tsc --noEmit --incremental false --watch",
     "coverage": "npm run test -- --watchAll=false --coverage"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
     "graphql-request": "^5.1.0",
     "jsdom": "^21.1.0",
     "mongodb": "^5.0.1",

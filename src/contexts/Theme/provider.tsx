@@ -10,7 +10,7 @@ export const ThemeProvider = ({ children }: ThemeProviderProps) => {
   const [state, dispatch] = useReducer(blogContextReducer, INITIAL_STATE);
 
   const changeTheme = useCallback(
-    (mode = '') => {
+    (mode: string) => {
       dispatch({
         type: Actions.setTheme,
         payload: {
@@ -27,6 +27,7 @@ export const ThemeProvider = ({ children }: ThemeProviderProps) => {
       type: Actions.setCategorySelected,
       payload: {
         categorySelected: category,
+        theme,
       },
     });
   }, []);
@@ -34,6 +35,7 @@ export const ThemeProvider = ({ children }: ThemeProviderProps) => {
   const activeDrawer = useCallback(() => {
     dispatch({
       type: Actions.setDrawer,
+      payload: { theme },
     });
   }, [dispatch]);
 

@@ -139,6 +139,7 @@ exports[`<Hero /> Should match snapshot component 1`] = `
     >
       <h1
         class="c2"
+        color="black"
       >
         Bem vindo ao blog
       </h1>

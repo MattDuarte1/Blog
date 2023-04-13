@@ -4,7 +4,7 @@ import { ThemeContextValues } from './type';
 
 export const INITIAL_STATE = {
   drawerIsOpen: false,
-  categorySelected: null,
+  categorySelected: undefined as string | undefined,
   theme: theme,
 };
 
@@ -25,6 +25,10 @@ export const newTheme = {
   },
 };
 
+/* istanbul ignore next */
 export const ThemeContext = createContext<ThemeContextValues>({
   state: INITIAL_STATE,
+  changeTheme: () => {},
+  activeDrawer: () => {},
+  changeCategory: () => {},
 });

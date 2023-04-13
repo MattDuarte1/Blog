@@ -1,4 +1,4 @@
-import { forwardRef, MutableRefObject } from 'react';
+import { forwardRef, ForwardedRef } from 'react';
 import * as Styled from './styles';
 import ModalBody from './ModalBody';
 import { IoMdClose } from 'react-icons/io';
@@ -6,14 +6,14 @@ import { IoMdClose } from 'react-icons/io';
 import MockDrawer from './mock';
 
 type DrawerProps = {
-  drawerIsOpen: boolean;
+  drawerIsOpen: boolean | undefined;
   activeDrawer: () => void;
 };
 
 const Drawer = forwardRef<HTMLDivElement, DrawerProps>(
   (
     { drawerIsOpen, activeDrawer, ...props },
-    ref: MutableRefObject<HTMLDivElement>,
+    ref: ForwardedRef<HTMLDivElement>,
   ) => {
     const handleBackDropClick = (e: React.SyntheticEvent) => {
       const target = e.target as HTMLDivElement | HTMLAnchorElement;

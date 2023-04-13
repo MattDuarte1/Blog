@@ -103,7 +103,7 @@ exports[`<Drawer> Should match snapshot drawer open 1`] = `
   text-transform: capitalize;
   font-size: 1.617rem;
   text-transform: none;
-  color: #2B2C34;
+  color: #FFFFFE;
 }
 
 .c2 {
@@ -186,6 +186,7 @@ exports[`<Drawer> Should match snapshot drawer open 1`] = `
           </svg>
           <h1
             class="c4"
+            color="white"
           >
             Conectar com Github
           </h1>

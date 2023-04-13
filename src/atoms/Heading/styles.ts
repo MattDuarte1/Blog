@@ -1,7 +1,7 @@
 import styled, { css, DefaultTheme } from 'styled-components';
 
 interface ContainerProps {
-  size?:
+  size:
     | 'xxsmall'
     | 'xsmall'
     | 'small'
@@ -84,7 +84,7 @@ const TitleColor = (
     | 'blue',
   theme: DefaultTheme,
 ) => css`
-  color: ${color ? theme.colors[color] : theme.colors.black};
+  color: ${theme.colors[color]};
 `;
 
 export const Container = styled.h1<ContainerProps>`

@@ -45,7 +45,7 @@ describe('<Categories />', () => {
         ,
       </ThemeProvider>,
     );
-    const categoryCard = container.querySelector('article');
+    const categoryCard = container.querySelector('article') as HTMLElement;
     expect(categoryCard).toBeInTheDocument();
 
     fireEvent.click(categoryCard);

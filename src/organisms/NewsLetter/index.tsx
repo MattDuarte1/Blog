@@ -6,12 +6,14 @@ import { forwardRef, useRef, useState } from 'react';
 import { useEmailSender } from '@/funcs/sendEmail';
 
 type NewsLetterProps = {
-  data: INewsLetter;
+  data?: INewsLetter;
 };
 
 const NewsLetter = forwardRef<HTMLDivElement, NewsLetterProps>(
   ({ data, ...props }, ref) => {
-    const inputRef = useRef<HTMLInputElement>(null);
+    const inputRef = useRef<HTMLInputElement>(
+      null,
+    ) as React.MutableRefObject<HTMLInputElement>;
     const formRef = useRef<HTMLFormElement>(null);
     const [fieldsDisabled, setFieldsDisabled] = useState(false);
     const sendEmail = useEmailSender(inputRef, setFieldsDisabled);
@@ -24,11 +26,11 @@ const NewsLetter = forwardRef<HTMLDivElement, NewsLetterProps>(
     return (
       <Styled.Container ref={ref} {...props}>
         <Styled.Content>
-          <img src={data.image.url} alt={data.image.alt} />
-          <Heading as="h1" size="large">
-            {data.title}
+          <img src={data?.image.url} alt={data?.image.alt} />
+          <Heading color="black" size="large">
+            {data?.title}
           </Heading>
-          <span>{data.description}</span>
+          <span>{data?.description}</span>
 
           <Styled.Form ref={formRef} onSubmit={handleOnSubmit}>
             <Styled.InputForm

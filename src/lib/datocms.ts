@@ -1,6 +1,6 @@
 import { GraphQLClient } from 'graphql-request';
 interface RequestProps {
-  query?: string;
+  query: string;
   variables?: any;
   includeDrafts?: boolean;
   excludeInvalid?: boolean;
@@ -11,7 +11,7 @@ export function request({
   includeDrafts,
   excludeInvalid,
 }: RequestProps) {
-  const headers = {
+  const headers: any = {
     authorization: `Bearer ${process.env.NEXT_PUBLIC_DATO_TOKEN}`,
   };
   if (includeDrafts) {
