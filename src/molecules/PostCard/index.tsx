@@ -47,7 +47,9 @@ const PostCard = forwardRef<HTMLElement, PostCardProps>(
           </Styled.AuthorDescription>
           <Styled.ViewBox>
             <AiOutlineEye />
-            <Heading size="small">{viewsData ? viewsData.total : 0}</Heading>
+            <Heading color="black" size="small">
+              {viewsData ? viewsData.total : 0}
+            </Heading>
           </Styled.ViewBox>
         </Styled.AuthorContent>
       </Styled.Container>

@@ -42,7 +42,7 @@ exports[`<HomeTemplate> Should match snapshot HomeTemplate component 1`] = `
   text-transform: capitalize;
   font-size: 2.156rem;
   text-transform: none;
-  color: #FFFFFE;
+  color: #2B2C34;
 }
 
 .c9 {
@@ -813,7 +813,7 @@ exports[`<HomeTemplate> Should match snapshot HomeTemplate component 1`] = `
             </svg>
             <h1
               class="c21"
-              color="white"
+              color="black"
             >
               0
             </h1>
@@ -891,7 +891,7 @@ exports[`<HomeTemplate> Should match snapshot HomeTemplate component 1`] = `
             </svg>
             <h1
               class="c21"
-              color="white"
+              color="black"
             >
               0
             </h1>
@@ -969,7 +969,7 @@ exports[`<HomeTemplate> Should match snapshot HomeTemplate component 1`] = `
             </svg>
             <h1
               class="c21"
-              color="white"
+              color="black"
             >
               0
             </h1>
@@ -1047,7 +1047,7 @@ exports[`<HomeTemplate> Should match snapshot HomeTemplate component 1`] = `
             </svg>
             <h1
               class="c21"
-              color="white"
+              color="black"
             >
               0
             </h1>
@@ -1125,7 +1125,7 @@ exports[`<HomeTemplate> Should match snapshot HomeTemplate component 1`] = `
             </svg>
             <h1
               class="c21"
-              color="white"
+              color="black"
             >
               0
             </h1>
@@ -1203,7 +1203,7 @@ exports[`<HomeTemplate> Should match snapshot HomeTemplate component 1`] = `
             </svg>
             <h1
               class="c21"
-              color="white"
+              color="black"
             >
               0
             </h1>
@@ -1281,7 +1281,7 @@ exports[`<HomeTemplate> Should match snapshot HomeTemplate component 1`] = `
             </svg>
             <h1
               class="c21"
-              color="white"
+              color="black"
             >
               0
             </h1>
