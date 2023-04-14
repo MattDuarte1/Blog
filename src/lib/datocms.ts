@@ -12,7 +12,7 @@ export function request({
   excludeInvalid,
 }: RequestProps) {
   const headers: any = {
-    authorization: `Bearer ${process.env.NEXT_PUBLIC_DATO_TOKEN}`,
+    authorization: `Bearer ${process.env.NEXT_DATO_TOKEN}`,
   };
   if (includeDrafts) {
     headers['X-Include-Drafts'] = 'true';
@@ -20,7 +20,7 @@ export function request({
   if (excludeInvalid) {
     headers['X-Exclude-Invalid'] = 'true';
   }
-  const client = new GraphQLClient(`${process.env.NEXT_PUBLIC_DATO_URL}`, {
+  const client = new GraphQLClient(`${process.env.NEXT_DATO_URL}`, {
     headers,
   });
   return client.request(query, variables);
