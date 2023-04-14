@@ -1,6 +1,6 @@
 import { renderTheme } from '../../styles/render-theme';
 import { useSession } from 'next-auth/react';
-import PostTemplate from '.';
+import { PostTemplate } from '.';
 import MockData from './mock';
 import { act, screen, waitFor } from '@testing-library/react';
 

@@ -11,7 +11,7 @@ type PostTemplateProps = {
   dataFormat: string;
 } & IPost;
 
-const PostTemplate = ({
+export const PostTemplate = ({
   metaContent,
   image,
   title,
@@ -38,5 +38,3 @@ const PostTemplate = ({
     </div>
   );
 };
-
-export default PostTemplate;

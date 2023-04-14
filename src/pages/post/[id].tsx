@@ -4,7 +4,7 @@ import { GRAPHQL_QUERY_POST, GRAPHQL_QUERY_ALL_POST } from '@/graphql/queries';
 import { request } from '@/lib/datocms';
 import { IPost } from '@/interfaces/Post';
 import { useRouter } from 'next/router';
-import PostTemplate from '@/templates/Post';
+import { PostTemplate } from '@/templates/PostTemplate';
 import { useFetch } from '@/lib/fetcher';
 
 interface SobreProps {
