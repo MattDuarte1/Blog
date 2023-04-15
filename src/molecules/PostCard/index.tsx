@@ -13,7 +13,13 @@ type PostCardProps = IPost & {
 
 const PostCard = forwardRef<HTMLElement, PostCardProps>(
   ({ title, authorCompact, image, createdAt, id, onClick, ...props }, ref) => {
-    const newFormatDataBR = new Date(createdAt).toLocaleDateString();
+    //const newFormatDataBR = new Date(createdAt).toLocaleDateString();
+    const newFormatDataBR = createdAt
+      .slice(0, 10)
+      .split('-')
+      .reverse()
+      .join('/');
+
     const { isPreview } = useRouter();
     const isPreviewMod = isPreview ? 'page-views-preview' : 'views';
     const { data: viewsData } = useFetch(
